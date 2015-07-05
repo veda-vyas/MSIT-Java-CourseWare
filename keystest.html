@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Key Press TEST</title>
+		<script type="text/javascript">
+			var keycode = require('keycode');
+			document.addEventListener('keyup', function(e) {
+			  console.log("You pressed "+keycode(e)+' '+e.which);
+			  console.log(keycode('?'));
+			});
+		</script>
+	</head>
+	<body>
+		<h1> Hi There ! </h1>
+	</body>
+</html>

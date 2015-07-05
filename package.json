@@ -1,0 +1,8 @@
+{
+  "name"    : "TMTQuizApp",
+  "version" : "0.1.0",
+  "main"    : "main.js",
+  "dependencies" : {
+	"keypress" : ">= 0.2.x"
+  }
+}

@@ -1,0 +1,457 @@
+{
+    "name": "General Competency Test",
+    "section": [
+        {
+            "name": "Aptitude Test",
+            "subsection": [
+                {
+                    "name": "A1 : Sentences",
+                    "questions": [
+                        {
+                            "question": "He like dogs.",
+                            "options": [
+                                "~She like dogs.",
+                                "=He likes dogs.",
+                                "~He liked dogs.",
+                                "~​none of the above"
+                            ],
+                            "id" : "1"
+                        },
+                        {
+                            "question": "What time it is?",
+                            "options": [
+                                "~What time it is?",
+                                "=What time is it?",
+                                "~What time are it?",
+                                "~What time it are?​"
+                            ],
+                            "id" : "2"
+                        },
+                        {
+                            "question": "He don’t like vegetables",
+                            "options": [
+                                "~He don't like vegetables.",
+                                "=He ​doesn't like vegetables.",
+                                "~He has not like vegetables.",
+                                "~He shall not like vegetables."
+                            ],
+                            "id" : "3"
+                        },
+                        {
+                            "question": "I went near to the edge of the water.",
+                            "options": [
+                                "~I went near to the edge of the water.",
+                                "~I went near by the edge of the water.",
+                                "~I went near beside the edge of the water.",
+                                "=none of the above"
+                            ],
+                            "id" : "4"
+                        },
+                        {
+                            "question": "She does her homework every night.",
+                            "options": [
+                                "=She ​does her homework every night.",
+                                "~She ​do her homework every night.",
+                                "~She did her homework every night.",
+                                "~She done​ her homework every night."
+                            ],
+                            "id" : "5"
+                        },
+                        {
+                            "question": "I need to get new job.",
+                            "options": [
+                                "~I need to ​get new job.",
+                                "=I need to ​get a new job.",
+                                "~I need to get the new job.",
+                                "~I need to get an new job​."
+                            ],
+                            "id" : "6"
+                        },
+                        {
+                            "question": "Monday is the day before Tuesday",
+                            "options": [
+                                "=​Monday is the day before Tuesday",
+                                "~​​Monday ​was the day before Tuesday​",
+                                "~​​Monday will be the day before Tuesday",
+                                "~​Monday may be the day before Tuesday"
+                            ],
+                            "id" : "7"
+                        },
+                        {
+                            "question": "There is not nothing in the box",
+                            "options": [
+                                "~There is not nothing in the box.",
+                                "~There is not anything in the box.",
+                                "=There is nothing in the box",
+                                "~None of the above"
+                            ],
+                            "id" : "8"
+                        },
+                        {
+                            "question": "My friends gone to the fair",
+                            "options": [
+                                "~My friends gone to the fair.",
+                                "~My friends going to the fair.",
+                                "=My friends went to the fair.",
+                                "~My friends go​ to the fair."
+                            ],
+                            "id" : "9"
+                        },
+                        {
+                            "question": "Ravi has lot of homework.",
+                            "options": [
+                                "~Ravi has lot of homework.",
+                                "~Ravi has the lot of homework.",
+                                "~Ravi have a lot of homework.",
+                                "=Ravi has a lot of​ homework"
+                            ],
+                            "id" : "10"
+                        }
+                    ],
+                    "note": "Select the correct form of the sentence for the following questions, some of the sentences may be correct in their original form:",
+                    "types": "question"
+                },
+                {
+                    "name": "A2: Reading",
+                    "questions": [
+                        {
+                            "question": "The main focus of this memorandum is to:",
+                            "options": [
+                                "~Reminding the staff of deadline",
+                                "~Direct them to administrative department for enrollment",
+                                "=Introduce the new benefits program to staff",
+                                "~Clarify employees’ questions and concerns"
+                            ],
+                            "id" : "11"
+                        }
+                    ],
+                    "note": "Read the following passage and answer the question given below: ",
+                    "passage": "We want to inform that the University has decided to implement new benefits program, which is a new insurance program. The program comes with the benefit of group health insurance policy that would take care of health care expenses of the staff. All the employees need to enroll within next thirty days. The employees need to enroll in person with the administration department or online through the administration portal of the University. In case the staff has any questions or concerns, please contact benefits specialist in administrative department.",
+                    "types": "passage"
+                }, 
+                {
+                    "name": "A3: Numerical",
+                    "questions": [
+                        {
+                            "question": "A grocer has a sale of Rs. 6435, Rs.6927, Rs. 6855, Rs.7230 and Rs.6562 for 5 consecutive months. How much sale must he have in the sixth month, so that he gets an average sale of Rs. 6500?",
+                            "options": [
+                                "=Rs. 4991",
+                                "~Rs. 5991",
+                                "~Rs. 6001",
+                                "~Rs. 6991"
+                            ],
+                            "id" : "12" 
+                        },
+                        {
+                            "question": "Ayesha’s father was 38 years of age when she was born. Her mother was 36 years old when her brother 4 years younger to her was born. What is the difference between the ages of her parents?",
+                            "options": [
+                                "~2 years",
+                                "~4 years",
+                                "=6 years",
+                                "~8 years"
+                            ],
+                            "id" : "13"
+                        },
+                        {
+                            "question": "In an election between candidates one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes is 7500, the number of valid votes that the other candidate got, was?",
+                            "options": [
+                                "=2700",
+                                "~2900",
+                                "~3000",
+                                "~3100"
+                            ],
+                            "id" : "14"
+                        },
+                        {
+                            "question": "The average age of 3 boys is 25 years and their ages are in the proportion 3:5:7. The age of the youngest boy is?",
+                            "options": [
+                                "~21 years",
+                                "~18 years",
+                                "=15 years",
+                                "~09 years"
+                            ],
+                            "id" : "15"
+                        },
+                        {
+                            "question": "Today is Monday. After 61 days, it will be?",
+                            "options": [
+                                "~Wednesday",
+                                "=Saturday",
+                                "~Tuesday",
+                                "~Thursday"
+                            ],
+                            "id" : "16"
+                        }
+                    ],
+                    "types": "question",
+                    "note": ""
+                },
+                {
+                    "name": "A4: Reasoning",
+                    "questions": [
+                        {
+                            "question": "Find out the wrong number in the series: 10, 25, 45, 54, 60, 75, 80",
+                            "options": [
+                                "~10",
+                                "~45",
+                                "=54",
+                                "~75"
+                            ],
+                            "id" : "17"
+                        },
+                        {
+                            "question": "A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P?",
+                            "options": [
+                                "~A",
+                                "=X",
+                                "~S",
+                                "~Z"
+                            ],
+                            "id" : "18"
+                        }
+                    ],
+                    "types": "question",
+                    "note": ""
+                },       
+                {
+                    "name": "A5: Composition",
+                    "questions": [
+                        {
+                            "question": "Write an essay to explain your views on the issue given below in 100-150 words: 'Building the new state capital for Andhra Pradesh on farmers' lands. Is AP deceiving people with land pooling scheme?'",
+                            "options": [],
+                            "id" : "19"
+                        }
+                    ],
+                    "types": "essay",
+                    "note": "Write The Essay Here"
+                }
+            ]
+        },
+        {
+            "name": "English Comprehension Test",
+            "subsection": [
+            {
+                    "name": "E1: Reading",
+                    "questions": [
+                        {
+                            "question": "What was the ancient Indian education system?",
+                            "options": [
+                                "~Modern school system",
+                                "=Gurukula system",
+                                "~Cambridge school system",
+                                "~None of the above"     
+                            ],
+                            "id" : "20"
+                        },
+                        {
+                            "question": "What did the guru in gurukula system teach?",
+                            "options": [
+                                "~Only Sanskrit and Holy Scriptures",
+                                "~Only Mathematics",
+                                "~Only Metaphysics",
+                                "=They teach everything including all the above"     
+                            ],
+                            "id" : "21"
+                        },
+                        {
+                            "question": "Who brought modern school system to India?",
+                            "options": [
+                                "~Lord Barron",
+                                "=Lord Thomas Babington Macaulay",
+                                "~Edwin Montagu",
+                                "~Reginald Dyer"
+                            ],
+                            "id" : "22"
+                        },
+                        {
+                            "question": "The three streams in school education in India are",
+                            "options": [
+                                "~CBSE, ICSE and UGC",
+                                "~CBSE, State level schools, convent schools",
+                                "=CBSE, ICSE and State level schools",
+                                "~None of the above"
+                            ],
+                            "id" : "23"
+                        }
+                    ],
+                    "note": "Read the following passage and answer the questions",
+                    "types" : "passage",
+                    "passage": "In ancient times, India had the Gurukula system of education in which anyone who wished to study went to a teacher's (Guru) house and requested to be taught. The guru taught everything the child wanted to learn, from Sanskrit to the Holy Scriptures and from Mathematics to Metaphysics. The students stayed as long as they wished or until the guru felt that he had taught everything he could teach. The modern school system was brought to India, including the English language, originally by Lord Thomas Babington Macaulay in the 1830s. The curriculum was confined to “modern” subjects such as science and mathematics, and subjects like metaphysics and philosophy were considered unnecessary. There are mainly three streams in school education in India. Two of these are coordinated at the national level, of which one is under the Central Board of Secondary Education (CBSE) and was originally meant for children of central government employees who are periodically transferred and may have to move to any place in the country. The second central scheme is the Indian Certificate of Secondary Education (ICSE). It seems that this was started as a replacement for the Cambridge School Certificate. Third stream is the state level schools."
+                },
+                {
+                    "name": "E2: Listening",
+                    "questions": [
+                        {
+                            "question": " What does the speaker want to talk about?",
+                            "options": [
+                                "~Death",
+                                "~Life",
+                                "=Legacy people leave behind",
+                                "~Prosperity"
+                            ],
+                            "id" : "24"
+                        },
+                        {
+                            "question": "How did her father leave behind his legacy for her?",
+                            "options": [
+                                "~Hand written novel",
+                                "~Diary",
+                                "=Letters and Notebooks",
+                                "~None of the above"
+                            ],
+                            "id" : "25"
+                        },
+                        {
+                            "question": "How did her father leave behind his thoughts about her?",
+                            "options": [
+                                "~Describing her strengths",
+                                "~Describing her weaknesses",
+                                "~Gentle suggestions for improvement",
+                                "=All of the above"
+                            ],
+                            "id" : "26"
+                        },
+                        {
+                            "question": "When does she usually read those letters?",
+                            "options": [
+                                "~Whenever she thinks of her father",
+                                "~Whenever she thinks of her mother",
+                                "=When ever it rains",
+                                "~When she travels"
+                            ],
+                            "id" : "27"
+                        }
+                    ],
+                    "note": "Listen to the video given and answer the following questions:",
+                    "types": "video",
+                    "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rG6xlKzFFrI\" frameborder=\"0\" allowfullscreen></iframe>"
+                },
+                {
+                    "name": " E3: Speaking",
+                    "questions": [
+                        {
+                            "question": "Your opinion on the topic 'Small states are better to administer : Telangana and AP after separation'",
+                            "options": [],
+                            "id" : "28"
+                        }
+                    ],
+                    "note": "Speak for about one to two minutes into the recording tool provided on the desktop on the following subject. You might want to prepare notes for a minute and get started.",
+                    "types": "record"
+                },
+                {
+                    "name": "E4: Writing",
+                    "questions": [
+                        {
+                            "question": "Write about the following topic in 100 to 150 words: 'Violence in the media causes violence in children' Do you agree or disagree?",
+                            "options": [],
+                            "id" : "29"
+                        }
+                    ],
+                    "types": "essay",
+                    "note": "Write the essay here"
+                }
+            ]
+        },
+        {
+            "name": "Telugu Comprehension Test",
+            "subsection": [
+            {
+                    "name": "T1: Reading",
+                    "questions": [
+                        {
+                            "question": "అన్ని ప్రాంతాలను అభివృద్ధి చేస్తామని ఎవరు అన్నారు?",
+                            "options": [
+                                "~భా జ పా నేత శ్రీ కిషన్ రెడ్డి",
+                                "=శ్రీ వై ఎస్ ఆర్ జగన్మోహన్ రెడ్డి",
+                                "~తెలంగాణా ముఖ్యమంత్రి శ్రీ కె చంద్రశేఖర్రావు",
+                                "~ఆంధ్రప్రదేశ్ ముఖ్యమంత్రి శ్రీ చంద్రబాబు నాయుడు"     
+                            ],
+                            "id" : "30"
+                        },
+                        {
+                            "question": "చంద్రబాబు నాయుడు ఎక్కడ మాట్లాడారు?",
+                            "options": [
+                                "~తెలంగాణా శాసనమండలి",
+                                "~ఏపి శాసనమండలి",
+                                "~పబ్లిక్ మీటింగులో",
+                                "=ఢిల్లీ పర్యటనలో"     
+                            ],
+                            "id" : "31"
+                        },
+                        {
+                            "question": "రుణ మాఫీ కోసం ఎంత డబ్బు విడుదల చేసినట్లు చెప్పారు?",
+                            "options": [
+                                "~7 వేల కోట్లు",
+                                "=42 కోట్లు",
+                                "~10 కోట్లు",
+                                "~7 లక్షలు"
+                            ],
+                            "id" : "32"
+                        },
+                        {
+                            "question": "రెండు నెలల్లో ఎవరికీ ఆర్థిక సాయం చేస్తామని సి ఎం చెప్పారు?",
+                            "options": [
+                                "~రిటైర్డ్ ఉద్యోగులకు",
+                                "~డ్వాక్రా సంఘాలకు",
+                                "=వృద్ధులకు",
+                                "~విద్యార్థులకు"
+                            ],
+                            "id" : "33"
+                        }
+                    ],
+                    "note": "Read the following passage and answer the questions",
+                    "types" : "passage",
+                    "passage": "అన్ని ప్రాంతాలను సమానంగా అభివృద్ధి చేస్తాం.... ప్రభుత్వానికి అందరూ సహకరించాలని ఏపీ ముఖ్యమంత్రి చంద్రబాబు నాయుడు కోరారు. ఏపీ శాసన మండలిలో సి ఎం మాట్లాడుతూఎన్నికల్లో ఇచ్చిన హామీల అమలుకు కట్టుబడి ఉన్నామని స్పష్హ్టం చేశారు. రుణమాఫీ కోసం రూ. 7 వేల కోట్లు విడుదల చేసినట్లు చెప్పారు. 42 లక్షల మందికి పించన్లు ఇస్తున్నాం, లబ్దిదారులకునేరుగా ఇంటి వద్దే పించన్లు పంపిణీ చేస్తామని తెలిపారు. రెండు నెలల్లో డ్వాక్రా సంఘాలకు రూ. 10 వేలు చొప్పున ఆర్ధిక సాయం అందిస్తామని వెల్లడించారు."
+                },
+                {
+                    "name": "E2: Listening",
+                    "questions": [
+                        {
+                            "question": "వై యస్ జగన్ అసెంబ్లీలో స్పీకర్ కు ఏమని ఫిర్యాదు చేసారు?",
+                            "options": [
+                                "~ప్రతిపక్ష నాయకులు వాక్ అవుట్ చేసారని",
+                                "~తమకు మాట్లాడే అవకాశం ఇవ్వలేదని",
+                                "=ప్రతిపక్ష నాయకులు పేదవాళ్ళకు కొత్త ఇల్లు కట్టి ఇవ్వలేదని",
+                                "~పైవి ఏవి కావు"
+                            ],
+                            "id" : "34"
+                        },
+                        {
+                            "question": "వై .యస్. జగన్ ఫిర్యాదుకు ఎవరు సమాధానమిచ్చారు?",
+                            "options": [
+                                "~శ్రీ చంద్రబాబు నాయుడు",
+                                "~స్పీకర్",
+                                "=ఘంటా శ్రీనివాస రావు",
+                                "~యనమల రామకృష్ణుడు"
+                            ],
+                            "id" : "35"
+                        },
+                        {
+                            "question": "రాష్ట్ర కాపిటల్ నిర్మాణానికి సింగపూర్ ఎన్ని ఎకరాలు కావాలని ప్రతిపాదించింది?",
+                            "options": [
+                                "~20 వేల ఎకరాలు",
+                                "~15 వేల ఎకరాలు",
+                                "~10 వేల ఎకరాలు",
+                                "=100 ఎకరాలు"
+                            ],
+                            "id" : "36"
+                        },
+                        {
+                            "question": "రాజేంద్రనాథ్ గారు తెలుగుదేశం పార్టీని ఏమని ఆరోపించారు?",
+                            "options": [
+                                "~రాష్ట్ర రాజధాని నిర్మాణానికి సింగపూర్ గవర్నమెంట్ సాయపడటం లేదని TDP వ్యాక్యనిచ్చినట్లు",
+                                "~రాష్ట్ర రాజధాని నిర్మాణానికి తెలంగాణ ప్రభుత్వం సాయపడటం లేదని TDP వ్యాక్యనిచ్చినట్లు",
+                                "=రాష్ట్ర రాజధాని నిర్మాణానికి గవర్నమెంట్ అఫ్ ఇండియా సాయపడటం లేదని TDP వ్యాక్యనిచ్చినట్లు",
+                                "~పైవి ఏవి కావు"
+                            ],
+                            "id" : "37"
+                        }
+                    ],
+                    "note": "Listen to the video given and answer the following questions:",
+                    "types": "video",
+                    "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_BpqSUv7fRw\" frameborder=\"0\" allowfullscreen></iframe>"
+                }
+            ]
+        }
+    ]
+}
