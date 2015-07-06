@@ -42,11 +42,11 @@ $(function(){
 				temp_lessons = temp_module['lessons'];
 				arr_lessons = [];
 				for(i=1; i<Object.keys(temp_lessons).length; i++){
-					arr_lessons.push(temp_lessons[i]['title']);
+					arr_lessons.push(temp_lessons[i]['title']); 
 				}
 				modulejson['lessons'] = arr_lessons;
 				//console.log(modulejson['lessons']);
-				temp_lesson = temp_lessons[''+les1];
+				temp_lesson = temp_lessons[''+les1-1];
 				//modulejson.push(temp_lesson);
 				modulejson = $.extend(modulejson, temp_lesson);
 				$.getJSON("coursedata.json", function(datas){
@@ -91,7 +91,7 @@ $(function(){
 			$('#courseheading').html('<h1>'+data["coursetitle"]+'</h1>');
 			$('#moduleheading').html('<h4>'+data['moduletitle']+'</h4>');
 			//console.log(data["lessons"]);
-			for(var i=1; i <= data["lessons"].length; i++){
+			for(var i=1; i <= data["lessons"].length+1; i++){
 				if(les1 == i){
 					$('#paginatedrow').append('<li id="'+i+'" data-toggle="tooltip" data-placement="bottom" title="'+data["lessons"][i-1]+'" class="active"><a href="module.html?mod='+mod1+'&les='+i+'">'+'</a></li>');
 				}else{
