@@ -36,10 +36,10 @@
                 },
                 {
                     "title": "Quiz",
-                    "question": "<p>What is the output of the code below?</p><h2>System.out.println(\"Hello, World!\")</h2><br/><input id=\"quizinput\" type=\"text\"></input>",
-                    "answer": "Hello, World!",
+                    "question": "<br><br>  <p>What is the output of the code below?</p><h2>System.out.println(\"Hello, World!\")</h2><br/><input id=\"quizinput\" type=\"text\"></input>",
+                    "answer": ["Hello, World!"],
                     "type": "quiz",
-                    "tips": "<a href=\"http://discussions.udacity.com/c/standalone-courses/intro-to-java-programming\" target=\"_blank\">Discussion Topic</a>"
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
                     "title": " Hello, World",
