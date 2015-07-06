@@ -53,6 +53,13 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
+                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/download-bluej.jpg' alt='no-image'/> <br/><input id=\"quizinput\" type=\"text\"></input>",
+                    "answer": ["Java"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
                 {
                     "title": " Downloading BlueJ",
                     "video": "videos/module1/08 - Downloading BlueJ.mp4",
