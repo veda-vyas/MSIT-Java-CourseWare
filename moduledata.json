@@ -317,6 +317,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-1.jpg'><input style='position:absolute; top:40%; left:40%; height:6%; width:25%' placeholder='yyyy-dd-mm' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["1965-07-14"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Mariner 4",
                     "video": "videos/module2/07 - Mariner 4.mp4",
                     "type": "lesson",
@@ -335,6 +342,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-2.jpg'><input style='position:absolute; top:17%; left:51%; height:5%; width:6%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:30%; left:54.5%; height:5%; width:6%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:41%; left:59.5%; height:5%; width:6%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:52%; left:45%; height:5%; width:7%' id=\"quizinput4\" type=\"text\"></input>",
+                    "answer": ["c","b","c","a"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Match the Methods",
                     "video": "videos/module2/10 - Match the Methods.mp4",
                     "type": "lesson",
@@ -350,6 +364,13 @@
                     "title": " What Does This Method Do",
                     "video": "videos/module2/12 - What Does This Method Do.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-1.jpg'><input style='position:absolute; top:40%; left:40%; height:6%; width:25%' placeholder='yyyy-dd-mm' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["1965-07-14"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -786,6 +807,32 @@
             ]
         },
         "4": {
+            "title": "Problem Set 1",
+            "lessons": [
+                {
+                    "title": "Short problem 1 - Variable cost",
+                    "question": "<img src='images/Problem Set 1/1.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput\" type=\"text\"></input>",
+                    "answer": "float cost=12.51;",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 1 - Variable cost",
+                    "question": "<img src='images/Problem Set 1/1.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput\" type=\"text\"></input>",
+                    "answer": "float cost=12.51;",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 2 - Variable course",
+                    "question": "<img src='images/Problem Set 1/1.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput\" type=\"text\"></input>",
+                    "answer": "float cost=12.51;",
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
+        },
+        "5": {
             "title": "Classes",
             "lessons": [
                 {
@@ -1024,7 +1071,7 @@
                 }
             ]
         },
-        "5": {
+        "6": {
             "title": "Classes",
             "lessons": [
                 {
@@ -1221,7 +1268,10 @@
                 }
             ]
         },
-        "6": {
+        "7": {
+            "title": "Problem Set 2"
+        },
+        "8": {
             "title": "Fundamental Data Types",
             "lessons": [
                 {
@@ -1466,7 +1516,7 @@
                 }
             ]
         },
-        "7": {
+        "9": {
             "title": "Fundamental Data Types",
             "lessons": [
                 {
@@ -1741,7 +1791,7 @@
                 }
             ]
         },
-        "8": {
+        "10": {
             "title": "Decisions",
             "lessons": [
                 {
@@ -2022,7 +2072,10 @@
                 }
             ]
         },
-        "9": {
+        "11": {
+            "title": "Problem Set 3"
+        },
+        "12": {
             "title": "Loops",
             "lessons": [
                 {
@@ -2513,7 +2566,10 @@
                 }
             ]
         },
-        "10": {
+        "13": {
+            "title": "Problem Set 4"
+        },
+        "14": {
             "title": "Loops",
             "lessons": [
                 {
@@ -2866,7 +2922,10 @@
                 }
             ]
         },
-        "11": {
+        "15": {
+            "title": "Problem Set 5"
+        },
+        "16": {
             "title": "ArrayLists and Arrays",
             "lessons": [
                 {
@@ -3159,7 +3218,10 @@
                 }
             ]
         },
-        "12": {
+        "17": {
+            "title": "Problem Set 6"
+        },
+        "18": {
             "title": "ArrayLists and Arrays",
             "lessons": [
                 {
@@ -3446,7 +3508,10 @@
                 }
             ]
         },
-        "13": {
+        "19": {
+            "title": "Problem Set 7"
+        },
+        "20": {
             "title": "More About Classes",
             "lessons": [
                 {
@@ -3745,7 +3810,10 @@
                 }
             ]
         },
-        "14": {
+        "21": {
+            "title": "Problem Set 8"
+        },
+        "22": {
             "title": "Interfaces and Inheritance",
             "lessons": [
                 {
@@ -4097,6 +4165,9 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 }
             ]
+        },
+        "23":{
+            "title": "Problem Set 9"
         }
     }
 }

@@ -102,15 +102,17 @@ $(function(){
 				$('#videodiv').html('<iframe class="embed-responsive-item" src="'+data['video']+'" allowfullscreen></iframe>');
 				$('#quizbox').hide();
 			} else if(data['type']=='quiz'){
-				$('#quizdiv').html('<br/><br/>'+data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
+				$('#quizdiv').html(data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
 				$('#videobox').hide();
 				$('#checkAnswer').click(function(){
-					if($('#quizinput').val().trim().toLowerCase() == data['answer'].toLowerCase()){
+				for (var i = 1; i <= data['answer'].length; i++) {
+					if($('#quizinput'+i).val().trim().toLowerCase() == data['answer'][i-1].toLowerCase()){
 						$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
 					} else {
 						$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
 					}
-				});
+				}
+			});
 				$('#btnNext2').click(function(){
 					//alert("Clicked Next");
 					var ipc = require('ipc');
