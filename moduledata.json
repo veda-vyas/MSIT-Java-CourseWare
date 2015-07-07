@@ -375,8 +375,8 @@
                 },
                 {
                     "title": "Quiz",
-                    "question": "<img height='100%' width='100%' src='images/lesson2/image-1.jpg'><input style='position:absolute; top:40%; left:40%; height:6%; width:25%' placeholder='yyyy-dd-mm' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["1965-07-14"],
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-3.jpg'><input style='position:absolute; top:18%; left:60%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:38%; left:59%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:53%; left:59%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:67%; left:59%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["d"],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -405,6 +405,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-4.jpg'><input style='position:absolute; top:40%; left:19.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:48%; left:20%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:56%; left:20%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:63%; left:20.5%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["b"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " An Exercise on Variable Names",
                     "video": "videos/module2/17 - An Exercise on Variable Names.mp4",
                     "type": "lesson",
@@ -420,6 +427,13 @@
                     "title": " Variable Types",
                     "video": "videos/module2/19 - Variable Types.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-5.jpg'><input style='position:absolute; top:44%; left:22.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:52%; left:23%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:60%; left:23.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:67%; left:24%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["a"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -441,6 +455,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-6.jpg'><input style='position:absolute; top:43%; left:19.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:51%; left:19.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:59%; left:20%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:66%; left:20.5%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["c"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Initial Values",
                     "video": "videos/module2/23 - Initial Values.mp4",
                     "type": "lesson",
@@ -459,6 +480,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-7.jpg'><input style='position:absolute; top:43.5%; left:78%; height:6%; width:12%' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["22339"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " How Many Days",
                     "video": "videos/module2/26 - How Many Days.mp4",
                     "type": "lesson",
@@ -468,6 +496,13 @@
                     "title": " Adding Comments",
                     "video": "videos/module2/27 - Adding Comments.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<form style='position: relative; margin-top: .5em;''> <textarea id='demotext'> <!-- Create a simple CodeMirror instance --> <link rel='stylesheet' href='lib/codemirror.css'> <script src='lib/codemirror.js'></script> <script> var editor = CodeMirror.fromTextArea(myTextarea, {lineNumbers: true }); </script> </textarea>",
+                    "answer": ["22339"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {

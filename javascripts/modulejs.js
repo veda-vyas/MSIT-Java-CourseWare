@@ -105,14 +105,23 @@ $(function(){
 				$('#quizdiv').html(data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
 				$('#videobox').hide();
 				$('#checkAnswer').click(function(){
-				for (var i = 1; i <= data['answer'].length; i++) {
-					if($('#quizinput'+i).val().trim().toLowerCase() == data['answer'][i-1].toLowerCase()){
-						$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
-					} else {
-						$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
+					if($('#quizinput1').attr('type')=='radio'){
+						if($('input[name="option"]:checked').val() == data['answer']){
+							$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
+						} else {
+							$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
+						}
 					}
-				}
-			});
+					else{
+						for (var i = 1; i <= data['answer'].length; i++) {
+							if($('#quizinput'+i).val().trim().toLowerCase() == data['answer'][i-1].toLowerCase()){
+								$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
+							} else {
+								$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
+							}
+						}
+					}
+				});
 				$('#btnNext2').click(function(){
 					//alert("Clicked Next");
 					var ipc = require('ipc');
