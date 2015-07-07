@@ -36,7 +36,7 @@
                 },
                 {
                     "title": "Quiz",
-                    "question": "<br><br>  <p>What is the output of the code below?</p><h2>System.out.println(\"Hello, World!\")</h2><br/><input id=\"quizinput\" type=\"text\"></input>",
+                    "question": "<br><br>  <p>What is the output of the code below?</p><h2>System.out.println(\"Hello, World!\")</h2><br/><input id=\"quizinput1\" type=\"text\"></input>",
                     "answer": ["Hello, World!"],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
@@ -55,7 +55,7 @@
                 },
                  {
                     "title": "Quiz",
-                    "question": "<img height='80%' width='80%' src='images/lesson1/download-bluej.jpg' alt='no-image'/> <br/><input id=\"quizinput\" type=\"text\"></input>",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/download-bluej.jpg' alt='no-image'/> <br/><input id=\"quizinput1\" type=\"text\"></input>",
                     "answer": ["Java"],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
@@ -498,13 +498,7 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-                {
-                    "title": "Quiz",
-                    "question": "<form style='position: relative; margin-top: .5em;''> <textarea id='demotext'> <!-- Create a simple CodeMirror instance --> <link rel='stylesheet' href='lib/codemirror.css'> <script src='lib/codemirror.js'></script> <script> var editor = CodeMirror.fromTextArea(myTextarea, {lineNumbers: true }); </script> </textarea>",
-                    "answer": ["22339"],
-                    "type": "quiz",
-                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
-                },
+                
                 {
                     "title": " Adding Comments",
                     "video": "videos/module2/28 - Adding Comments.mp4",
@@ -516,6 +510,13 @@
                     "video": "videos/module2/29 - Variable Declarations The Fine Print.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-8.png'><input style='position:absolute; top:27%; left:3%; height:5%; width:5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:35%; left:3%; height:5%; width:5%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:41.5%; left:3%; height:5%; width:5%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:48%; left:3%; height:5%; width:5%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:54.5%; left:3%; height:5%; width:5%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:61%; left:3%; height:5%; width:5%' id=\"quizinput6\" type=\"text\"></input><input style='position:absolute; top:67.5%; left:3%; height:5%; width:5%' id=\"quizinput7\" type=\"text\"></input>",
+                    "answer": ["d","c","f","a","g","b","e"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
                 {
                     "title": " Variable Declarations The Fine Print",
@@ -554,6 +555,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-9.jpg'><input style='position:absolute; top:32%; right:18%; height:6%; width:25%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:45%; right:7%; height:6%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["birthday","int"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " Arguments and Return Values Exercise",
                     "video": "videos/module2/36 - Arguments and Return Values Exercise.mp4",
                     "type": "lesson",
@@ -572,6 +580,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-10.jpg'><input style='position:absolute; top:22.5%; left:41%; height:4%; width:10%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:28.5%; left:59%; height:4%; width:10%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["0","int"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " Method Description",
                     "video": "videos/module2/39 - Method Description.mp4",
                     "type": "lesson",
@@ -582,6 +597,13 @@
                     "video": "videos/module2/40 - More Method Descriptions.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-11.jpg'><input style='position:absolute; top:41%; left:40%; height:4%; width:10%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:45.5%; left:58%; height:4%; width:16%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:51.5%; left:62%; height:4%; width:14%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:59%; left:39%; height:4%; width:10%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:64%; left:32.5%; height:4%; width:10%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:67%; left:51.5%; height:5%; width:10%' id=\"quizinput6\" type=\"text\"></input>",
+                    "answer": ["2","string","string","1","string","0"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
                 {
                     "title": " More Method Descriptions",
@@ -603,7 +625,7 @@
                 {
                     "title": " Making Rectangles",
                     "video": "videos/module3/43 - Making Rectangles.mp4",
-                    "type": "lesson",
+                    "type": "lesson", 
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -631,6 +653,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-12.jpg'><input style='position:absolute; top:40.5%; left:13.5%; height:8%; width:50%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:66%; left:14.5%; height:8%; width:37%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["river.replace(\"i\",\"x\");","Mxssxssxppx"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " The replace Method",
                     "video": "videos/module3/48 - The replace Method.mp4",
                     "type": "lesson",
@@ -643,6 +672,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-13.png'><input style='position:absolute; top:66.5%; left:60.5%; height:6%; width:22%' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["Hello, Space!"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " The trim Method",
                     "video": "videos/module3/50 - The trim Method.mp4",
                     "type": "lesson",
@@ -653,6 +689,13 @@
                     "video": "videos/module3/51 - toUpperCase and toLowerCase.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-14.png'><input style='position:absolute; top:34%; left:38%; height:5%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:42.5%; left:38%; height:5%; width:20%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:50%; left:54.5%; height:5%; width:20%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:66.5%; left:38.5%; height:6%; width:19%' id=\"quizinput4\" type=\"text\"></input>",
+                    "answer": ["MISSISSIPPI","mississippi","mississippi","Mississippi"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
                 {
                     "title": " toUpperCase and toLowerCase",
@@ -671,7 +714,7 @@
                     "video": "videos/module3/54 - Accessor or Mutator.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
-                },
+                }, 
                 {
                     "title": " Accessor or Mutator",
                     "video": "videos/module3/55 - Accessor or Mutator.mp4",
@@ -683,7 +726,7 @@
                     "video": "videos/module3/56 - Accessor or Mutator 2.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
-                },
+                }, 
                 {
                     "title": " Accessor or Mutator 2",
                     "video": "videos/module3/57 - Accessor or Mutator 2.mp4",
@@ -695,6 +738,13 @@
                     "video": "videos/module3/58 - Pitfall.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-17.jpg'><input style='position:absolute; top:55.5%; left:73.5%; height:5%; width:7%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:74%; left:74%; height:4%; width:6.5%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["105.0","105.0"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
                 {
                     "title": " Pitfall",
@@ -715,6 +765,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-18.jpg'><input style='position:absolute; top:18%; left:72%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:35%; left:72%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:49.5%; left:72%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:63%; left:72%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["c"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Copying Rectangles",
                     "video": "videos/module3/62 - Copying Rectangles.mp4",
                     "type": "lesson",
@@ -727,6 +784,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-19.png'><input style='position:absolute; top:31%; left:74.5%; height:8.5%; width:16%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:67.5%; left:74.5%; height:8%; width:17%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["Hello, World!","Hello, World!"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " Copying Strings",
                     "video": "videos/module3/64 - Copying Strings.mp4",
                     "type": "lesson",
@@ -737,6 +801,13 @@
                     "video": "videos/module3/65 - Copying Numbers.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-20.jpg'><input style='position:absolute; top:21%; left:79%; height:8.5%; width:9%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:47%; left:80.5%; height:8.5%; width:9%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["13","12"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
                 {
                     "title": " Copying Numbers",
@@ -820,6 +891,13 @@
                     "title": " Matching Color",
                     "video": "videos/module3/79 - Matching Color.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-22.jpg'><input style='position:absolute; top:25%; left:35%; height:5%; width:5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:31.5%; left:35%; height:5%; width:5%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:37.5%; left:35%; height:5%; width:5.5%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:44%; left:35%; height:5%; width:5.5%' id=\"quizinput4\" type=\"text\"></input>",
+                    "answer": ["c","b","d","a"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {

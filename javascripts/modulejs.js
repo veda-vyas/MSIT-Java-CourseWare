@@ -114,7 +114,7 @@ $(function(){
 					}
 					else{
 						for (var i = 1; i <= data['answer'].length; i++) {
-							if($('#quizinput'+i).val().trim().toLowerCase() == data['answer'][i-1].toLowerCase()){
+							if($('#quizinput'+i).val() == data['answer'][i-1]){
 								$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
 							} else {
 								$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
