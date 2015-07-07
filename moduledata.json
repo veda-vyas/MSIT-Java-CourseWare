@@ -1,7 +1,7 @@
 {
     "coursetitle": "Intro to Java Programming",
     "modules": {
-        "1": {
+          "1": {
             "title": "Introduction to Java Programming Environment",
             "lessons": [
                 {
@@ -36,7 +36,7 @@
                 },
                 {
                     "title": "Quiz",
-                    "question": "<br><br>  <p>What is the output of the code below?</p><h2>System.out.println(\"Hello, World!\")</h2><br/><input id=\"quizinput\" type=\"text\"></input>",
+                    "question": "<br><br>  <p>What is the output of the code below?</p><h2>System.out.println(\"Hello, World!\")</h2><br/><input id=\"quizinput1\" type=\"text\"></input>",
                     "answer": ["Hello, World!"],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
@@ -55,7 +55,7 @@
                 },
                  {
                     "title": "Quiz",
-                    "question": "<img height='80%' width='80%' src='images/lesson1/download-bluej.jpg' alt='no-image'/> <br/><input id=\"quizinput\" type=\"text\"></input>",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/download-bluej.jpg' alt='no-image'/> <br/><input id=\"quizinput1\" type=\"text\"></input>",
                     "answer": ["Java"],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
@@ -108,6 +108,13 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
+                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/text-numbers.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45%; left: 26%;height:5%; width:5%' id=\"quizinput1\" type=\"text\"></input> <br/><input style='position:absolute; top: 52%; left: 26%; height:5%; width:19.5%'id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["12", "3+4+5"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
                 {
                     "title": " Text and Numbers",
                     "video": "videos/module1/16 - Text and Numbers.mp4",
@@ -126,6 +133,14 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/print.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45%; left: 35%;height:5%; width:18%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["39"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+
                 {
                     "title": " print and println",
                     "video": "videos/module1/19 - print and println.mp4",
