@@ -108,7 +108,7 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-                 {
+                {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/text-numbers.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45%; left: 26%;height:5%; width:5%' id=\"quizinput1\" type=\"text\"></input> <br/><input style='position:absolute; top: 52%; left: 26%; height:5%; width:19.5%'id=\"quizinput2\" type=\"text\"></input>",
                     "answer": ["12", "3+4+5"],
@@ -154,6 +154,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/error.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45.6%; left: 69.5%;' type='checkbox' class='Checkboxinput' value='a'><br><input style='position:absolute; top: 49%; left: 85.5%;' type='checkbox' class='Checkboxinput' value='b'><br><input style='position:absolute; top: 53%; left: 85.5%;' type='checkbox' class='Checkboxinput' value='c'><br><input style='position:absolute; top: 55%; left: 72.5%;' type='checkbox' class='Checkboxinput' value='d'>",
+                    "answer": ["c"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Errors",
                     "video": "videos/module1/21 - Errors.mp4",
                     "type": "lesson",
@@ -163,6 +170,14 @@
                     "title": " Compile-Time and Runtime Errors",
                     "video": "videos/module1/22 - Compile-Time and Runtime Errors.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                                        
+                },
+                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson1/complie.jpg'><input style='position:absolute; top:36.5%; left:26.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:51.3%; left:26%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input>",
+                    "answer": ["a"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -175,6 +190,13 @@
                     "title": " Compile-Time and Runtime Errors 2",
                     "video": "videos/module1/24 - Compile-Time and Runtime Errors 2.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson1/complie1.jpg'><input style='position:absolute; top:38%; left:53.3%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:55%; left:53%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input>",
+                    "answer": ["b"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -196,6 +218,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson1/algo.jpg'><input style='position:absolute; top:26%; left:57%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:35%; left:57%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input> <input style='position:absolute; top:43.5%; left:57%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input> <input style='position:absolute; top:52%; left:57%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
+                    "answer": ["d"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Algorithms",
                     "video": "videos/module1/28 - Algorithms.mp4",
                     "type": "lesson",
@@ -205,6 +234,13 @@
                     "title": " Algorithms 2",
                     "video": "videos/module1/29 - Algorithms 2.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/algo2.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 46%; left: 55%;height:4%; width:12%' id=\"quizinput1\" type=\"text\"></input> <input style='position:absolute; top: 46%; left: 74%; height:4%; width:11%'id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["35000", "34000"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -220,6 +256,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/legos.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45%; left: 66.5%;height:4%; width:11%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top: 54%; left: 66%; height:4%; width:11%'id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["bbybyy", "bbbyyy"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Tidying Legos",
                     "video": "videos/module1/32 - Tidying Legos.mp4",
                     "type": "lesson",
@@ -229,6 +272,13 @@
                     "title": " What Does This Pseudocode Print",
                     "video": "videos/module1/33 - What Does This Pseudocode Print.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/pseud.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 64.5%; left: 15%;height:5%; width:24.5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top: 63.5%; left: 50%; height:5%; width:32%'id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["13.86", "splitting a bill"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -244,6 +294,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/pseudoprint.jpg' alt='no-image'/> <br/><textarea style='position:absolute; top: 20%; left: 52%; width:12%; height:25%' id=\"quizinput1\" type=\"textarea\"></textarea>",
+                    "answer": ["10\n5\n16\n8\n4\n2"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Another Pseudocode Example",
                     "video": "videos/module1/36 - Another Pseudocode Example.mp4",
                     "type": "lesson",
@@ -256,6 +313,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson1/blue.png' alt='no-image'/> <br/><input style='position:absolute; top: 27%; left: 57%;height:5%; width:30%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top: 34%; left: 57%; height:4%; width:30%'id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top: 40%; left: 60%; height:4%; width:27%'id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top: 46%; left: 63%; height:4%; width:24%'id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top: 57%; left: 63%; height:4%; width:24%'id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top: 67.5%; left: 63%; height:4%; width:24%'id=\"quizinput6\" type=\"text\"></input>",
+                    "answer": ["move all the way left", "while not found" , "if the piece you're looking at is blue", "move one space right", "stop. you found it","move all the way space right" ],
+                    "type": "quiz",
+                    "tips": "Hint: You will have to use \"move one space right\" twice, and you may not use all the options.<br/><b>You can copy paste the lines from here if you don't want to type them: </b><br/><br/> while not found<br/>else if the piece to the right is yellow<br/>move all the way to the left<br/>move one space right<br/>if the piece you're looking at is blue<br/>stop. you found it<br/>else if the piece to the right is blue<br/>move all the way to the right"
+                },
+                {
                     "title": " Move to the First Yellow-Blue Lego",
                     "video": "videos/module1/38 - Move to the First Yellow-Blue Lego.mp4",
                     "type": "lesson",
@@ -265,6 +329,13 @@
                     "title": " Why Is This Not a Correct Algorithm",
                     "video": "videos/module1/39 - Why Is This Not a Correct Algorithm.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"                    
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson1/correctalgo.png'><input style='position:absolute; top:50.5%; left:11%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:58.5%; left:11%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:65.5%; left:11%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["c"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -277,6 +348,13 @@
                     "title": " What Does This Algorithm Do",
                     "video": "videos/module1/41 - What Does This Algorithm Do.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson1/algodo.png'><input style='position:absolute; top:66%; left:36%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:65.5%; left:60.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:73%; left:36%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:72%; left:60.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
+                    "answer": ["c"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
