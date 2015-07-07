@@ -105,11 +105,31 @@ $(function(){
 				$('#quizdiv').html(data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
 				$('#videobox').hide();
 				$('#checkAnswer').click(function(){
+					var checkedans = [];
 					if($('#quizinput1').attr('type')=='radio'){
 						if($('input[name="option"]:checked').val() == data['answer']){
 							$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
 						} else {
 							$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
+						}
+					}
+					else if($('.Checkboxinput').attr('type')=='checkbox'){
+						var inputElements = document.getElementsByClassName('Checkboxinput');
+						for(var i=0; inputElements[i]; ++i){
+						      if(inputElements[i].checked)
+						           checkedans.push(inputElements[i].value);
+						}
+						checkedans.sort();
+						data['answer'].sort();
+						if(checkedans.length!=data['answer'].length)
+							$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
+						else{
+							for (var i = 0; i < checkedans.length; ++i) {
+							    if (checkedans[i] != data['answer'][i]){
+							    	$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');break;
+							    }else
+							    	$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
+							}
 						}
 					}
 					else{
