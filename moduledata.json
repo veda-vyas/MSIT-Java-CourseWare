@@ -1094,6 +1094,14 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/Mutator.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 19.5%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='a'><br><input style='position:absolute; top: 27%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='b'><br><input style='position:absolute; top: 34%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='c'><br><input style='position:absolute; top: 41%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='d'>",
+                    "answer": ["a","b"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+
+                {
                     "title": " Which Are Mutators",
                     "video": "videos/module4/05 - Which Are Mutators.mp4",
                     "type": "lesson",
@@ -1103,6 +1111,13 @@
                     "title": " The Public Interface of the Person Class",
                     "video": "videos/module4/06 - The Public Interface of the Person Class.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/public.jpg' alt='no-image'/> <br/><input style='position:absolute; top:62%; left:39%;height:5%; width:23%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["john.addFriend(mary);"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1118,6 +1133,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/unmake.jpg' alt='no-image'/> <br/><input style='position:absolute; top:57%; left:25%;height:6%; width:28%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["public void unfriend(Person nonFriend)"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Unfriend a Friend",
                     "video": "videos/module4/09 - Unfriend a Friend.mp4",
                     "type": "lesson",
@@ -1127,6 +1149,13 @@
                     "title": " Listing Friends",
                     "video": "videos/module4/10 - Listing Friends.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/list-friend.jpg' alt='no-image'/> <br/><input style='position:absolute; top:40%; left:50%;height:7%; width:34%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["public String getFriends()"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1141,10 +1170,18 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
+                
                 {
                     "title": " Instance Variables",
                     "video": "videos/module4/13 - Instance Variables.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/remember.png' alt='no-image'/> <br/><input style='position:absolute; top:50%; left:25%;height:14%; width:40%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": [""],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1160,6 +1197,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/person-instance.png' alt='no-image'/> <br/><input style='position:absolute; top:35%; left:39%;height:9%; width:20%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["private String name;"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Name Instance Variable",
                     "video": "videos/module4/16 - Name Instance Variable.mp4",
                     "type": "lesson",
@@ -1172,6 +1216,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/instance-friend.jpg' alt='no-image'/> <br/><input style='position:absolute; top:30%; left:35%;height:6%; width:26.5%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["private String friends;"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Friends Instance Variable",
                     "video": "videos/module4/18 - Friends Instance Variable.mp4",
                     "type": "lesson",
@@ -1181,6 +1232,13 @@
                     "title": " addGas Method",
                     "video": "videos/module4/19 - addGas Method.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/addgas.png' alt='no-image'/> <br/><input style='position:absolute; top:44%; left:21%;height:5%; width:33%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["gasInTank=gasInTank+amount;"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1202,6 +1260,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/addFriend.jpg' alt='no-image'/> <br/><input style='position:absolute; top:33%; left:36%;height:8%; width:24%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["friends=friends+friend.name+\" \";"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " addFriend Method",
                     "video": "videos/module4/23 - addFriend Method.mp4",
                     "type": "lesson",
@@ -1214,6 +1279,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/unfriend-method.jpg' alt='no-image'/> <br/><input style='position:absolute; top:40%; left:20%;height:6.5%; width:38%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["friends=friends+replace(friend.name+\" \",\" \");"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " unfriend Method",
                     "video": "videos/module4/25 - unfriend Method.mp4",
                     "type": "lesson",
@@ -1223,6 +1295,13 @@
                     "title": " Additional Car Methods",
                     "video": "videos/module4/26 - Additional Car Methods.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/additionalcars.jpg' alt='no-image'/> <br/><input style='position:absolute; top:50%; left:23%;height:4%; width:29%' id=\"quizinput1\" type=\"text\"></input> ",
+                    "answer": ["return gasInTank;"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1277,6 +1356,13 @@
                     "title": " Person Constructor",
                     "video": "videos/module4/35 - Person Constructor.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/personConstruct.jpg' alt='no-image'/> <br/><textarea style='position:absolute; top:30.5%; left:18%;height:8%; width:33%' id=\"quizinput1\" type=\"textarea\"></textarea> ",
+                    "answer": ["name=aName;\nfriends=\" \";"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
