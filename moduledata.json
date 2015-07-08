@@ -1391,7 +1391,7 @@
                 }
             ]
         },
-        "6": {
+       "6": {
             "title": "Classes",
             "lessons": [
                 {
@@ -1413,15 +1413,30 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson3/seeing-connections.jpg'><input style='position:absolute; top:33.5%; left:63%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:41%; left:63%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:47.5%; left:63%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:55%; left:64%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:62.5%; left:64%;' name='option' value='e' id=\"quizinput5\" type=\"radio\"></input>",
+                    "answer": ["b"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Seeing Connections",
                     "video": "videos/module5/43 - Seeing Connections.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
+
                 {
                     "title": " Do We Have Enough Information",
                     "video": "videos/module5/44 - Do We Have Enough Information.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson3/info.jpg'><input style='position:absolute; top:29%; left:64.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:39%; left:64.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:51%; left:64.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:56%; left:64.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:68%; left:65.5%;' name='option' value='e' id=\"quizinput5\" type=\"radio\"></input>",
+                    "answer": ["e"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1434,6 +1449,13 @@
                     "title": " Find the Coordinates of the Endpoint",
                     "video": "videos/module5/46 - Find the Coordinates of the Endpoint.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson3/coordinates.jpg'><input style='position:absolute; top:29%; left:61%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:38%; left:61%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:48%; left:61.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:56%; left:62%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:66%; left:62%;' name='option' value='e' id=\"quizinput5\" type=\"radio\"></input>",
+                    "answer": ["d"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1479,6 +1501,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson3/improvedoc.jpg'><input style='position:absolute; top:25%; left:57%;' name='option' value='a' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:35.5%; left:57.5%;' name='option' value='b' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:46.5%; left:58%;' name='option' value='c' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:53.5%; left:58%;' name='option' value='d' id=\"quizinput5\" type=\"radio\"></input><textarea style='position:absolute; top: 63%; left: 50%; width:46%; height:12%' id=\"quizinput1\" type=\"textarea\"></textarea>",
+                    "answer": ["Returns a summary of the\nPerson's friends.\n@return the names of friends\nseperated by spaces.","b"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Improving the Documentation",
                     "video": "videos/module5/54 - Improving the Documentation.mp4",
                     "type": "lesson",
@@ -1521,6 +1550,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson3/finderror.jpg'><input style='position:absolute; top:10%; left:66%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:17%; left:65.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:31%; left:65.3%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:47.3%; left:65.3%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
+                    "answer": ["a"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Find the Error",
                     "video": "videos/module5/61 - Find the Error.mp4",
                     "type": "lesson",
@@ -1536,6 +1572,13 @@
                     "title": " The this Reference",
                     "video": "videos/module5/63 - The this Reference.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson3/reference.png' alt='no-image'/> <br/><input style='position:absolute; top:21%; left:81%;height:4%; width:5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:49%; left:80%;height:4%; width:5%' id=\"quizinput2\" type=\"text\"></input> ",
+                    "answer": ["5","yes"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
