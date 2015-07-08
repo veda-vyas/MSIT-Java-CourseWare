@@ -1613,6 +1613,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-1.jpg'><input style='position:absolute; top:60%; left:27%; height:8%; width:40%' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["-727379968"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Working with Numbers",
                     "video": "videos/module6/04 - Working with Numbers.mp4",
                     "type": "lesson",
@@ -1625,6 +1632,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-2.jpg'><input style='position:absolute; top:70%; left:30%; height:8%; width:40%' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["1.0E12"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Overflow",
                     "video": "videos/module6/06 - Overflow.mp4",
                     "type": "lesson",
@@ -1634,6 +1648,13 @@
                     "title": " Precision",
                     "video": "videos/module6/07 - Precision.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-3.jpg'><input style='position:absolute; top:36%; left:31%; height:7%; width:40%' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["434.99999999999994"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1655,6 +1676,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-4.png'><input style='position:absolute; top:16%; left:25%; height:6%; width:10%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:29%; left:25%; height:6%; width:10%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:45%; left:26%; height:6%; width:10%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:59%; left:25.5%; height:6%; width:10%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:10.5%; left:61.5%; height:6%; width:10%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:27.5%; left:56%; height:6%; width:10%' id=\"quizinput6\" type=\"text\"></input><input style='position:absolute; top:42%; left:55.5%; height:6%; width:10%' id=\"quizinput7\" type=\"text\"></input><input style='position:absolute; top:57%; left:55%; height:6%; width:9%' id=\"quizinput8\" type=\"text\"></input>",
+                    "answer": ["int","double","long","double","123","123","123L","123"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " Number Types",
                     "video": "videos/module6/11 - Number Types.mp4",
                     "type": "lesson",
@@ -1667,6 +1695,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-5.jpg'><input style='position:absolute; top:37%; left:48%; height:9%; width:13%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:49%; left:48%; height:9%; width:14%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:62%; left:48%; height:8%; width:14%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:36.5%; left:76%; height:9%; width:16%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:50%; left:76%; height:9%; width:16%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:62.5%; left:76%; height:9%; width:16%' id=\"quizinput6\" type=\"text\"></input>",
+                    "answer": ["42","16","4","42","16","4"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " Arithmetic Operations",
                     "video": "videos/module6/13 - Arithmetic Operations.mp4",
                     "type": "lesson",
@@ -1676,6 +1711,13 @@
                     "title": " Integer Arithmetic",
                     "video": "videos/module6/14 - Integer Arithmetic.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-6.png'><input style='position:absolute; top:59%; left:33%; height:5%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:67%; left:33%; height:5%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["43","5"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1706,6 +1748,13 @@
                     "title": " Color Reduction",
                     "video": "videos/module6/19 - Color Reduction.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-7.jpg'><input style='position:absolute; top:47%; left:79%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:55%; left:79%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input> <input style='position:absolute; top:62%; left:74.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input> <input style='position:absolute; top:70%; left:75%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
+                    "answer": ["c"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1757,6 +1806,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-8.jpg'><input style='position:absolute; top:41.5%; right:70.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:48%; right:70.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input> <input style='position:absolute; top:55%; right:70.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input> <input style='position:absolute; top:61%; right:70.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
+                    "answer": ["b"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Casts",
                     "video": "videos/module6/28 - Casts.mp4",
                     "type": "lesson",
@@ -1772,6 +1828,13 @@
                     "title": " Casts 2",
                     "video": "videos/module6/30 - Casts 2.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-9.jpg'><input style='position:absolute; top:49.5%; left:70%; height:7%; width:15%' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["434"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -1805,6 +1868,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-10.jpg'><input style='position:absolute; top:40%; left:52%; height:5%; width:15%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:47.5%; left:52%; height:5%; width:15%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:54%; left:52%; height:5%; width:15%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:60.5%; left:53%; height:5%; width:15%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:67.5%; left:53%; height:5%; width:15%' id=\"quizinput5\" type=\"text\"></input>",
+                    "answer": ["1000","2","2","255","0"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
+                },
+                {
                     "title": " Math Functions",
                     "video": "videos/module6/36 - Math Functions.mp4",
                     "type": "lesson",
@@ -1826,6 +1896,13 @@
                     "title": " Magic Number",
                     "video": "videos/module6/39 - Magic Number.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-11.jpg'><input style='position:absolute; top:64%; left:7%; height:8%; width:60%' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": ["red = Math.min(red + ADDED_RED, MAX_RED);"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
