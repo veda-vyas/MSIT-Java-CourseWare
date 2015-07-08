@@ -48,22 +48,36 @@ nodeexec('javac E:\\Electron\\MyApp.java', function callback(error, stdout, stde
 
 //Write to a file in local system
 var myfs = require('fs');
-var myjson = { "value1" : "ABCDEF", "value2" : "QWERTY" };
+myfs.exists(__dirname+"/userdatajson.json",function(exists){
+	if(!exists){
+		myfs.writeFile(__dirname+"/userdatajson.json",JSON.stringify({"userdata":[]}),"utf8",function(err){});
+		console.log("File Created.");
+	}
+	else{
+		console.log("File exists.");
+	}
+});
+/*var myjson = { "userdata":[]};
 console.log("myjson: "+myjson);
-myfs.writeFile(__dirname+"samplejson.json", JSON.stringify( myjson ), "utf8", function (err) {
+myfs.writeFile(__dirname+"/userdatajson.json", JSON.stringify( myjson ), "utf8", function (err) {
 	console.log("Callback");
 	if (err) throw err;
 	console.log("File Saved");
 });
-
-myJSON = myfs.readFile(__dirname+"samplejson.json", flag="utf8", function(err, data){
-	//console.log(err);
-	if (err) throw err;
-	console.log(data);
+*/
+/*myJSON = myfs.readFile(__dirname+"/moduledata.json", flag="utf8", function(err, data){
+	
 	data = JSON.parse(data);
-	console.log(data["value1"]);
-	console.log(data["value2"]);
-});
+	var modjson=data;
+	for(i=1; i<=Object.keys(modjson["modules"]).length; i++){
+		//console.log("module no: "+modjson["modules"][""+i]["title"]);
+		for(var j=0;j<modjson["modules"][""+i]["lessons"].length;j++){
+			modjson["modules"][""+i]["lessons"][j]["qid"]=i+"."+(j+1);
+			
+		}	
+	}
+	myfs.writeFile(__dirname+"/moduledata1.json",JSON.stringify(modjson),"utf8",function(err){});
+});*/
 
 //Check if internet connection is present through dns lookup
 require('dns').lookup('www.google.com', function(err) {
@@ -100,12 +114,27 @@ app.on('ready', function() {
   
   // IPC to navigate to another URL
   ipc.on('asynchronous-message', function(event, arg) {
-	 console.log(arg);  // prints URL
-	 console.log('----> file://' + __dirname + arg);
+	 //console.log(arg);  // prints URL
+	 //console.log('----> file://' + __dirname + arg);
 	 //event.sender.send('asynchronous-reply', 'pong');
 	 mainWindow.loadUrl('file://' + __dirname + arg);
   });
+  ipc.on('process-data', function(event, arg) {
+	myJSON = myfs.readFile(__dirname+"/userdatajson.json", flag="utf8", function(err, data){
+		//console.log(err);
+		if (err) throw err;
+		//console.log(data);
 
+		data = JSON.parse(data);
+		var modjson=data;
+		var i=data["userdata"].length;
+		
+		arg["sno"]=""+(i+1);
+		modjson["userdata"][i]=arg;//{"qid":""+strarr[0],"startTime":strarr[0],"submittedTime":strarr[1],"score":strarr[2]};
+		myfs.writeFile(__dirname+"/userdatajson.json",JSON.stringify(modjson),"utf8",function(err){});
+	});
+	 
+  });
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
     // Dereference the window object, usually you would store windows
