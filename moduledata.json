@@ -807,6 +807,13 @@
                     "video": "videos/module3/54 - Accessor or Mutator.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-15.jpg'><textarea style=\"position:absolute; top:31%; left:68%; height:12%\" id=\"quizinput1\" type=\"textarea\"></textarea><input style='position:absolute; top:54%; left:69.5%;' name='option' value='a' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:65%; left:69.5%;' name='option' value='b' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["Jello\nHello","a"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 }, 
                 {
                     "title": " Accessor or Mutator",
@@ -819,6 +826,13 @@
                     "video": "videos/module3/56 - Accessor or Mutator 2.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-16.jpg'><textarea style=\"position:absolute; top:31%; left:68%; height:17.5%; width:21%\" id=\"quizinput1\" type=\"textarea\"></textarea><input style='position:absolute; top:59%; left:72%;' name='option' value='a' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:68.5%; left:72%;' name='option' value='b' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": ["5.0\n60.0\n30.0\n60.0","b"],
+                    "type": "quiz",
+                    "tips": "<p>Note: Since it's cut off, here's the first line of the code written above:</p><pre>Rectangle box = new Rectangle(5, 10, 60, 90);</pre><br>Video Source: udacity.com <br> Intro to Java Programming"
                 }, 
                 {
                     "title": " Accessor or Mutator 2",
@@ -859,7 +873,7 @@
                 },
                 {
                     "title": "Quiz",
-                    "question": "<img height='100%' width='100%' src='images/lesson2/image-18.jpg'><input style='position:absolute; top:18%; left:72%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:35%; left:72%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:49.5%; left:72%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:63%; left:72%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-18.jpg'><input style='position:absolute; top:18%; left:72%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:35%; left:72%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:49.5%; left:72%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:63%; left:72%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
                     "answer": ["c"],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
@@ -969,6 +983,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson2/image-21.jpg'><input style='position:absolute; top:40%; left:68%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:50%; left:68%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:61%; left:68%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:72%; left:68%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:39%; left:84%;' name='option1' value='a' id=\"quizinput5\" type=\"radio\"></input><input style='position:absolute; top:49%; left:84%;' name='option1' value='b' id=\"quizinput6\" type=\"radio\"></input><input style='position:absolute; top:61%; left:84%;' name='option1' value='c' id=\"quizinput7\" type=\"radio\"></input><input style='position:absolute; top:71%; left:84%;' name='option1' value='d' id=\"quizinput8\" type=\"radio\"></input>",
+                    "answer": ["c","c"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Intro to Color",
                     "video": "videos/module3/77 - Intro to Color.mp4",
                     "type": "lesson",
@@ -1044,8 +1065,7 @@
                     "tips": ""
                 }
             ]
-        },
-                    
+        },                    
         "5": {
             "title": "Classes",
             "lessons": [

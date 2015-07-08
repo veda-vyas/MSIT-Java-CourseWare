@@ -106,8 +106,15 @@ $(function(){
 				$('#videobox').hide();
 				$('#checkAnswer').click(function(){
 					var checkedans = [];
-					if($('#quizinput1').attr('type')=='radio'){
-						if($('input[name="option"]:checked').val() == data['answer']){
+					if($('#quizinput2').attr('type')=='radio' && $('#quizinput1').attr('type')=='textarea'){
+						if($('textarea').val() == data['answer'][0] && $('input[name="option"]:checked').val() == data['answer'][1]){
+							$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
+						} else {
+							$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
+						}
+					}
+					else if($('#quizinput1').attr('type')=='radio'){
+						if($('input[name="option"]:checked').val() == data['answer'] || $('input[name="option"]:checked').val() == data['answer'][0] && $('input[name="option1"]:checked').val() == data['answer'][1]){
 							$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
 						} else {
 							$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
