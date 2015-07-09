@@ -1990,6 +1990,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-12.jpg'><input style='position:absolute; top:28%; left:47.5%; height:5%; width:6%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:28%; left:55%; height:5%; width:6%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:43%; left:44.5%; height:5%; width:18%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:57%; left:44%; height:5%; width:18%' id=\"quizinput4\" type=\"text\"></input>",
+                    "answer": ["6","d","\"%4.2 f\"","\"%5\""],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Practice Formatted Output",
                     "video": "videos/module7/46 - Practice Formatted Output.mp4",
                     "type": "lesson",
@@ -2035,6 +2042,13 @@
                     "title": " Strings",
                     "video": "videos/module7/53 - Strings.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-13.png'><input style='position:absolute; top:51%; left:46%; height:5%; width:25%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:58%; left:46%; height:5%; width:25%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:65%; left:46%; height:5%; width:25%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:72%; left:46%; height:5%; width:25%' id=\"quizinput4\" type=\"text\"></input>",
+                    "answer": ["7","city","3","HelloUdacity"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -2140,6 +2154,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-14.png' alt='no-image'/> <br/><textarea style='position:absolute; top: 30%; left: 52%; width:30%; height:25%' id=\"quizinput1\" type=\"textarea\"></textarea>",
+                    "answer": ["firstOccurenceofMadHatter\noccurrencesofAlice"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Polish Our Code",
                     "video": "videos/module7/71 - Polish Our Code.mp4",
                     "type": "lesson",
@@ -2164,6 +2185,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-15.jpg'><input style='position:absolute; top:71%; left:48%; height:5%; width:25%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["5 rows"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " How Many Rows of Fields",
                     "video": "videos/module7/75 - How Many Rows of Fields.mp4",
                     "type": "lesson",
@@ -2173,6 +2201,13 @@
                     "title": " How Many Columns Can We Fit",
                     "video": "videos/module7/76 - How Many Columns Can We Fit.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-16.jpg'><input style='position:absolute; top:55%; left:72%; height:6%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:71%; left:72%; height:6%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["2","1"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -2188,6 +2223,13 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-17.jpg'><input style='position:absolute; top:35%; left:69%; height:6%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:55%; left:69%; height:6%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": ["3","2"],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Number of Odd vs Even Rows",
                     "video": "videos/module7/79 - Number of Odd vs Even Rows.mp4",
                     "type": "lesson",
@@ -2197,6 +2239,13 @@
                     "title": " How Many Fields Can We Fit",
                     "video": "videos/module7/80 - How Many Fields Can We Fit.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson4/image-18.jpg'><input style='position:absolute; top:44%; left:63%; height:6%; width:20%' id=\"quizinput1\" type=\"text\">",
+                    "answer": ["8"],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
