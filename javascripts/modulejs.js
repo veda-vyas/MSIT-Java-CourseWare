@@ -116,7 +116,7 @@ $(function(){
 				$('#videodiv').html('<iframe class="embed-responsive-item" src="'+data['video']+'" allowfullscreen></iframe>');
 				$('#quizbox').hide();
 			} else if(data['type']=='quiz'){
-				$('#quizdiv').html('<br/><br/>'+data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
+				$('#quizdiv').html(''+data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
 				$('#videobox').hide();
 				$('#checkAnswer').click(function(){
 					var checkedans = [];
