@@ -1,7 +1,7 @@
 {
     "coursetitle": "Intro to Java Programming",
     "modules": {
-          "1": {
+        "1": {
             "title": "Introduction to Java Programming Environment",
             "lessons": [
                 {
@@ -37,7 +37,9 @@
                 {
                     "title": "Quiz",
                     "question": "<br><br>  <p>What is the output of the code below?</p><h2>System.out.println(\"Hello, World!\")</h2><br/><input id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["Hello, World!"],
+                    "answer": [
+                        "Hello, World!"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -53,10 +55,12 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-                 {
+                {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/download-bluej.jpg' alt='no-image'/> <br/><input id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["Java"],
+                    "answer": [
+                        "Java"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -111,7 +115,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/text-numbers.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45%; left: 26%;height:5%; width:5%' id=\"quizinput1\" type=\"text\"></input> <br/><input style='position:absolute; top: 52%; left: 26%; height:5%; width:19.5%'id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["12", "3+4+5"],
+                    "answer": [
+                        "12",
+                        "3+4+5"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -136,11 +143,12 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/print.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45%; left: 35%;height:5%; width:18%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["39"],
+                    "answer": [
+                        "39"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-
                 {
                     "title": " print and println",
                     "video": "videos/module1/19 - print and println.mp4",
@@ -156,7 +164,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/error.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45.6%; left: 69.5%;' type='checkbox' class='Checkboxinput' value='a'><br><input style='position:absolute; top: 49%; left: 85.5%;' type='checkbox' class='Checkboxinput' value='b'><br><input style='position:absolute; top: 53%; left: 85.5%;' type='checkbox' class='Checkboxinput' value='c'><br><input style='position:absolute; top: 55%; left: 72.5%;' type='checkbox' class='Checkboxinput' value='d'>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -171,12 +181,13 @@
                     "video": "videos/module1/22 - Compile-Time and Runtime Errors.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
-                                        
                 },
-                 {
+                {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson1/complie.jpg'><input style='position:absolute; top:36.5%; left:26.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:51.3%; left:26%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input>",
-                    "answer": ["a"],
+                    "answer": [
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -195,7 +206,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson1/complie1.jpg'><input style='position:absolute; top:38%; left:53.3%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:55%; left:53%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input>",
-                    "answer": ["b"],
+                    "answer": [
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -220,7 +233,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson1/algo.jpg'><input style='position:absolute; top:26%; left:57%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:35%; left:57%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input> <input style='position:absolute; top:43.5%; left:57%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input> <input style='position:absolute; top:52%; left:57%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["d"],
+                    "answer": [
+                        "d"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -239,7 +254,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/algo2.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 46%; left: 55%;height:4%; width:12%' id=\"quizinput1\" type=\"text\"></input> <input style='position:absolute; top: 46%; left: 74%; height:4%; width:11%'id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["35000", "34000"],
+                    "answer": [
+                        "35000",
+                        "34000"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -258,7 +276,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/legos.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 45%; left: 66.5%;height:4%; width:11%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top: 54%; left: 66%; height:4%; width:11%'id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["bbybyy", "bbbyyy"],
+                    "answer": [
+                        "bbybyy",
+                        "bbbyyy"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -277,7 +298,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/pseud.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 64.5%; left: 15%;height:5%; width:24.5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top: 63.5%; left: 50%; height:5%; width:32%'id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["13.86", "splitting a bill"],
+                    "answer": [
+                        "13.86",
+                        "splitting a bill"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -296,7 +320,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/pseudoprint.jpg' alt='no-image'/> <br/><textarea style='position:absolute; top: 20%; left: 52%; width:12%; height:25%' id=\"quizinput1\" type=\"textarea\"></textarea>",
-                    "answer": ["10\n5\n16\n8\n4\n2"],
+                    "answer": [
+                        "10\n5\n16\n8\n4\n2"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -315,7 +341,14 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson1/blue.png' alt='no-image'/> <br/><input style='position:absolute; top: 27%; left: 57%;height:5%; width:30%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top: 34%; left: 57%; height:4%; width:30%'id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top: 40%; left: 60%; height:4%; width:27%'id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top: 46%; left: 63%; height:4%; width:24%'id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top: 57%; left: 63%; height:4%; width:24%'id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top: 67.5%; left: 63%; height:4%; width:24%'id=\"quizinput6\" type=\"text\"></input>",
-                    "answer": ["move all the way left", "while not found" , "if the piece you're looking at is blue", "move one space right", "stop. you found it","move all the way space right" ],
+                    "answer": [
+                        "move all the way left",
+                        "while not found",
+                        "if the piece you're looking at is blue",
+                        "move one space right",
+                        "stop. you found it",
+                        "move all the way space right"
+                    ],
                     "type": "quiz",
                     "tips": "Hint: You will have to use \"move one space right\" twice, and you may not use all the options.<br/><b>You can copy paste the lines from here if you don't want to type them: </b><br/><br/> while not found<br/>else if the piece to the right is yellow<br/>move all the way to the left<br/>move one space right<br/>if the piece you're looking at is blue<br/>stop. you found it<br/>else if the piece to the right is blue<br/>move all the way to the right"
                 },
@@ -329,12 +362,14 @@
                     "title": " Why Is This Not a Correct Algorithm",
                     "video": "videos/module1/39 - Why Is This Not a Correct Algorithm.mp4",
                     "type": "lesson",
-                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"                    
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson1/correctalgo.png'><input style='position:absolute; top:50.5%; left:11%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:58.5%; left:11%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:65.5%; left:11%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -350,10 +385,12 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-                 {
+                {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson1/algodo.png'><input style='position:absolute; top:66%; left:36%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:65.5%; left:60.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:73%; left:36%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:72%; left:60.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -419,7 +456,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-1.jpg'><input style='position:absolute; top:40%; left:40%; height:6%; width:25%' placeholder='yyyy-dd-mm' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["1965-07-14"],
+                    "answer": [
+                        "1965-07-14"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -444,7 +483,12 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-2.jpg'><input style='position:absolute; top:17%; left:51%; height:5%; width:6%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:30%; left:54.5%; height:5%; width:6%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:41%; left:59.5%; height:5%; width:6%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:52%; left:45%; height:5%; width:7%' id=\"quizinput4\" type=\"text\"></input>",
-                    "answer": ["c","b","c","a"],
+                    "answer": [
+                        "c",
+                        "b",
+                        "c",
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -469,7 +513,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-3.jpg'><input style='position:absolute; top:18%; left:60%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:38%; left:59%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:53%; left:59%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:67%; left:59%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
-                    "answer": ["d"],
+                    "answer": [
+                        "d"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -500,7 +546,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-4.jpg'><input style='position:absolute; top:40%; left:19.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:48%; left:20%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:56%; left:20%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:63%; left:20.5%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
-                    "answer": ["b"],
+                    "answer": [
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -525,7 +573,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-5.jpg'><input style='position:absolute; top:44%; left:22.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:52%; left:23%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:60%; left:23.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:67%; left:24%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
-                    "answer": ["a"],
+                    "answer": [
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -550,7 +600,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-6.jpg'><input style='position:absolute; top:43%; left:19.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:51%; left:19.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:59%; left:20%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:66%; left:20.5%;' name='option' value='d' id=\"quizinput3\" type=\"radio\"></input>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -575,7 +627,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-7.jpg'><input style='position:absolute; top:43.5%; left:78%; height:6%; width:12%' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["22339"],
+                    "answer": [
+                        "22339"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -591,7 +645,6 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-                
                 {
                     "title": " Adding Comments",
                     "video": "videos/module2/28 - Adding Comments.mp4",
@@ -607,7 +660,15 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-8.png'><input style='position:absolute; top:27%; left:3%; height:5%; width:5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:35%; left:3%; height:5%; width:5%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:41.5%; left:3%; height:5%; width:5%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:48%; left:3%; height:5%; width:5%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:54.5%; left:3%; height:5%; width:5%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:61%; left:3%; height:5%; width:5%' id=\"quizinput6\" type=\"text\"></input><input style='position:absolute; top:67.5%; left:3%; height:5%; width:5%' id=\"quizinput7\" type=\"text\"></input>",
-                    "answer": ["d","c","f","a","g","b","e"],
+                    "answer": [
+                        "d",
+                        "c",
+                        "f",
+                        "a",
+                        "g",
+                        "b",
+                        "e"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -650,7 +711,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-9.jpg'><input style='position:absolute; top:32%; right:18%; height:6%; width:25%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:45%; right:7%; height:6%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["birthday","int"],
+                    "answer": [
+                        "birthday",
+                        "int"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -675,7 +739,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-10.jpg'><input style='position:absolute; top:22.5%; left:41%; height:4%; width:10%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:28.5%; left:59%; height:4%; width:10%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["0","int"],
+                    "answer": [
+                        "0",
+                        "int"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -694,7 +761,14 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-11.jpg'><input style='position:absolute; top:41%; left:40%; height:4%; width:10%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:45.5%; left:58%; height:4%; width:16%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:51.5%; left:62%; height:4%; width:14%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:59%; left:39%; height:4%; width:10%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:64%; left:32.5%; height:4%; width:10%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:67%; left:51.5%; height:5%; width:10%' id=\"quizinput6\" type=\"text\"></input>",
-                    "answer": ["2","string","string","1","string","0"],
+                    "answer": [
+                        "2",
+                        "string",
+                        "string",
+                        "1",
+                        "string",
+                        "0"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -718,7 +792,7 @@
                 {
                     "title": " Making Rectangles",
                     "video": "videos/module3/43 - Making Rectangles.mp4",
-                    "type": "lesson", 
+                    "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -748,7 +822,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-12.jpg'><input style='position:absolute; top:40.5%; left:13.5%; height:8%; width:50%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:66%; left:14.5%; height:8%; width:37%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["river.replace(\"i\",\"x\");","Mxssxssxppx"],
+                    "answer": [
+                        "river.replace(\"i\",\"x\");",
+                        "Mxssxssxppx"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -767,7 +844,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-13.png'><input style='position:absolute; top:66.5%; left:60.5%; height:6%; width:22%' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["Hello, Space!"],
+                    "answer": [
+                        "Hello, Space!"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -786,7 +865,12 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-14.png'><input style='position:absolute; top:34%; left:38%; height:5%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:42.5%; left:38%; height:5%; width:20%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:50%; left:54.5%; height:5%; width:20%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:66.5%; left:38.5%; height:6%; width:19%' id=\"quizinput4\" type=\"text\"></input>",
-                    "answer": ["MISSISSIPPI","mississippi","mississippi","Mississippi"],
+                    "answer": [
+                        "MISSISSIPPI",
+                        "mississippi",
+                        "mississippi",
+                        "Mississippi"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -811,10 +895,13 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-15.jpg'><textarea style=\"position:absolute; top:31%; left:68%; height:12%\" id=\"quizinput1\" type=\"textarea\"></textarea><input style='position:absolute; top:54%; left:69.5%;' name='option' value='a' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:65%; left:69.5%;' name='option' value='b' id=\"quizinput3\" type=\"radio\"></input>",
-                    "answer": ["Jello\nHello","a"],
+                    "answer": [
+                        "Jello\nHello",
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
-                }, 
+                },
                 {
                     "title": " Accessor or Mutator",
                     "video": "videos/module3/55 - Accessor or Mutator.mp4",
@@ -830,10 +917,13 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-16.jpg'><textarea style=\"position:absolute; top:31%; left:68%; height:17.5%; width:21%\" id=\"quizinput1\" type=\"textarea\"></textarea><input style='position:absolute; top:59%; left:72%;' name='option' value='a' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:68.5%; left:72%;' name='option' value='b' id=\"quizinput3\" type=\"radio\"></input>",
-                    "answer": ["5.0\n60.0\n30.0\n60.0","b"],
+                    "answer": [
+                        "5.0\n60.0\n30.0\n60.0",
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "<p>Note: Since it's cut off, here's the first line of the code written above:</p><pre>Rectangle box = new Rectangle(5, 10, 60, 90);</pre><br>Video Source: udacity.com <br> Intro to Java Programming"
-                }, 
+                },
                 {
                     "title": " Accessor or Mutator 2",
                     "video": "videos/module3/57 - Accessor or Mutator 2.mp4",
@@ -849,7 +939,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-17.jpg'><input style='position:absolute; top:55.5%; left:73.5%; height:5%; width:7%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:74%; left:74%; height:4%; width:6.5%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["105.0","105.0"],
+                    "answer": [
+                        "105.0",
+                        "105.0"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -874,7 +967,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-18.jpg'><input style='position:absolute; top:18%; left:72%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:35%; left:72%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:49.5%; left:72%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:63%; left:72%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -893,7 +988,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-19.png'><input style='position:absolute; top:31%; left:74.5%; height:8.5%; width:16%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:67.5%; left:74.5%; height:8%; width:17%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["Hello, World!","Hello, World!"],
+                    "answer": [
+                        "Hello, World!",
+                        "Hello, World!"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -912,7 +1010,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-20.jpg'><input style='position:absolute; top:21%; left:79%; height:8.5%; width:9%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:47%; left:80.5%; height:8.5%; width:9%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["13","12"],
+                    "answer": [
+                        "13",
+                        "12"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -985,7 +1086,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-21.jpg'><input style='position:absolute; top:40%; left:68%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:50%; left:68%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:61%; left:68%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:72%; left:68%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:39%; left:84%;' name='option1' value='a' id=\"quizinput5\" type=\"radio\"></input><input style='position:absolute; top:49%; left:84%;' name='option1' value='b' id=\"quizinput6\" type=\"radio\"></input><input style='position:absolute; top:61%; left:84%;' name='option1' value='c' id=\"quizinput7\" type=\"radio\"></input><input style='position:absolute; top:71%; left:84%;' name='option1' value='d' id=\"quizinput8\" type=\"radio\"></input>",
-                    "answer": ["c","c"],
+                    "answer": [
+                        "c",
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1010,7 +1114,12 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson2/image-22.jpg'><input style='position:absolute; top:25%; left:35%; height:5%; width:5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:31.5%; left:35%; height:5%; width:5%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:37.5%; left:35%; height:5%; width:5.5%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:44%; left:35%; height:5%; width:5.5%' id=\"quizinput4\" type=\"text\"></input>",
-                    "answer": ["c","b","d","a"],
+                    "answer": [
+                        "c",
+                        "b",
+                        "d",
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1040,32 +1149,172 @@
                 }
             ]
         },
-    "4": {
+        "4": {
             "title": "Problem Set 1",
             "lessons": [
                 {
                     "title": "Short problem 1 - Variable cost",
                     "question": "<img src='images/Problem Set 1/1.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": "float cost=12.51;",
+                    "answer": [
+                        "float cost=12.51;"
+                    ],
                     "type": "quiz",
                     "tips": ""
                 },
                 {
                     "title": "Short problem 2 - Variable course",
                     "question": "<img src='images/Problem Set 1/1.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": "String course=\"udacity\";",
+                    "answer": [
+                        "String course=\"udacity\";"
+                    ],
                     "type": "quiz",
                     "tips": ""
                 },
                 {
                     "title": "Short Problem 3 - Valid Variable Names",
-                    "question": "<img src='images/Problem Set 1/1.3.jpg' alt='image'><br><br><input type='checkbox' class='Checkboxinput' value='a'>age<br><input type='checkbox' class='Checkboxinput' value='b'>class<br><input type='checkbox' class='Checkboxinput' value='c'>int<br><input type='checkbox' class='Checkboxinput' value='d'>7ofspeeds<br><input type='checkbox' class='Checkboxinput' value='e'>k@udacity<br><input type='checkbox' class='Checkboxinput' value='f'>bank account<br><input type='checkbox' class='Checkboxinput' value='g'>costPerUnit<br>",
-                    "answer": ["a","c","d"],
+                    "question": "<img src='images/Problem Set 1/1.3.jpg' alt='image'><br><br><form class='form-horizontal'><div class='form-group text-left' style='margin-left:155px'><font size='4px' color='green'><input type='checkbox' class='Checkboxinput' value='a'>&nbsp;age<br><input type='checkbox' class='Checkboxinput' value='b'>&nbsp;class<br><input type='checkbox' class='Checkboxinput' value='c'>&nbsp;int<br><input type='checkbox' class='Checkboxinput' value='d'>&nbsp;7ofspeeds<br><input type='checkbox' class='Checkboxinput' value='e'>&nbsp;k@udacity<br><input type='checkbox' class='Checkboxinput' value='f'>&nbsp;bank account<br><input type='checkbox' class='Checkboxinput' value='g'>&nbsp;costPerUnit<br></div></form>",
+                    "answer": [
+                        "a",
+                        "g"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 4 - Variable count",
+                    "question": "<img src='images/Problem Set 1/1.4.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "count=100;"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 5 - Variable Names",
+                    "question": "<img src='images/Problem Set 1/1.5.jpg' alt='image'><br><p style='text-align:left; margin-left:40%; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;a</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;s</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;x</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;areaofSquare</input><br><input name='option' value='e' id=\"quizinput5\" type=\"radio\">&nbsp;area</input></p>",
+                    "answer": [
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 6 - Value of mystery",
+                    "question": "<img src='images/Problem Set 1/1.6.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "-13"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 8 - What Type of Method?",
+                    "question": "<img src='images/Problem Set 1/1.8.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "accessor"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 9 - Mississippi",
+                    "question": "<img src='images/Problem Set 1/1.9.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "8"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 10 - Construct Rectangle",
+                    "question": "<img src='images/Problem Set 1/1.10.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "new Rectangle(100,50,60,40)"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 11 - Construct Square",
+                    "question": "<img src='images/Problem Set 1/1.11.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 12 - getWidth",
+                    "question": "<img src='images/Problem Set 1/1.12.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input><br><img src='images/Problem Set 1/1.12.1.jpg' alt='image'>",
+                    "answer": [
+                        "double"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 13 - Translate Rectangle",
+                    "question": "<img src='images/Problem Set 1/1.13.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "30"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 14 - toUpperCase",
+                    "question": "<img src='images/Problem Set 1/1.14.jpg' alt='image'><br><textarea rows='4' cols='30' id=\"quizinput1\"></textarea>",
+                    "answer": [
+                        "UDACITY\nUdacity"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 15 - charAt",
+                    "question": "<img src='images/Problem Set 1/1.15.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "int"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 16 - getX",
+                    "question": "<img src='images/Problem Set 1/1.16.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "double"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 17 - What Does This Print?",
+                    "question": "<img src='images/Problem Set 1/1.17.jpg' alt='image'><br><textarea rows='4' cols='30' id=\"quizinput1\"></textarea>",
+                    "answer": [
+                        "125\n125"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem 18 - What Does This Print?",
+                    "question": "<img src='images/Problem Set 1/1.18.jpg' alt='image'><br><textarea rows='4' cols='30' id=\"quizinput1\" type=\"text\"></textarea>",
+                    "answer": [
+                        "100\n80"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Question 1 - What Does This Print?",
+                    "question": "<img src='images/Problem Set 1/Q1.jpg' alt='image'><br><textarea rows='4' cols='30' id=\"quizinput1\" type=\"text\"></textarea>",
+                    "answer": [
+                        "42+7\n49\nHelloWorld"
+                    ],
                     "type": "quiz",
                     "tips": ""
                 }
             ]
-        },                    
+        },
         "5": {
             "title": "Classes",
             "lessons": [
@@ -1096,11 +1345,13 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/Mutator.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 19.5%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='a'><br><input style='position:absolute; top: 27%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='b'><br><input style='position:absolute; top: 34%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='c'><br><input style='position:absolute; top: 41%; left: 33.5%;' type='checkbox' class='Checkboxinput' value='d'>",
-                    "answer": ["a","b"],
+                    "answer": [
+                        "a",
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-
                 {
                     "title": " Which Are Mutators",
                     "video": "videos/module4/05 - Which Are Mutators.mp4",
@@ -1116,7 +1367,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/public.jpg' alt='no-image'/> <br/><input style='position:absolute; top:62%; left:39%;height:5%; width:23%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["john.addFriend(mary);"],
+                    "answer": [
+                        "john.addFriend(mary);"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1135,7 +1388,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/unmake.jpg' alt='no-image'/> <br/><input style='position:absolute; top:57%; left:25%;height:6%; width:28%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["public void unfriend(Person nonFriend)"],
+                    "answer": [
+                        "public void unfriend(Person nonFriend)"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1154,7 +1409,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/list-friend.jpg' alt='no-image'/> <br/><input style='position:absolute; top:40%; left:50%;height:7%; width:34%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["public String getFriends()"],
+                    "answer": [
+                        "public String getFriends()"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1170,7 +1427,6 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-                
                 {
                     "title": " Instance Variables",
                     "video": "videos/module4/13 - Instance Variables.mp4",
@@ -1180,7 +1436,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/remember.png' alt='no-image'/> <br/><input style='position:absolute; top:50%; left:25%;height:14%; width:40%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": [""],
+                    "answer": [
+                        ""
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1199,7 +1457,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/person-instance.png' alt='no-image'/> <br/><input style='position:absolute; top:35%; left:39%;height:9%; width:20%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["private String name;"],
+                    "answer": [
+                        "private String name;"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1218,7 +1478,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/instance-friend.jpg' alt='no-image'/> <br/><input style='position:absolute; top:30%; left:35%;height:6%; width:26.5%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["private String friends;"],
+                    "answer": [
+                        "private String friends;"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1237,7 +1499,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/addgas.png' alt='no-image'/> <br/><input style='position:absolute; top:44%; left:21%;height:5%; width:33%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["gasInTank=gasInTank+amount;"],
+                    "answer": [
+                        "gasInTank=gasInTank+amount;"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1262,7 +1526,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/addFriend.jpg' alt='no-image'/> <br/><input style='position:absolute; top:33%; left:36%;height:8%; width:24%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["friends=friends+friend.name+\" \";"],
+                    "answer": [
+                        "friends=friends+friend.name+\" \";"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1281,7 +1547,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/unfriend-method.jpg' alt='no-image'/> <br/><input style='position:absolute; top:40%; left:20%;height:6.5%; width:38%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["friends=friends+replace(friend.name+\" \",\" \");"],
+                    "answer": [
+                        "friends=friends+replace(friend.name+\" \",\" \");"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1300,7 +1568,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/additionalcars.jpg' alt='no-image'/> <br/><input style='position:absolute; top:50%; left:23%;height:4%; width:29%' id=\"quizinput1\" type=\"text\"></input> ",
-                    "answer": ["return gasInTank;"],
+                    "answer": [
+                        "return gasInTank;"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1361,7 +1631,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/personConstruct.jpg' alt='no-image'/> <br/><textarea style='position:absolute; top:30.5%; left:18%;height:8%; width:33%' id=\"quizinput1\" type=\"textarea\"></textarea> ",
-                    "answer": ["name=aName;\nfriends=\" \";"],
+                    "answer": [
+                        "name=aName;\nfriends=\" \";"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1391,7 +1663,7 @@
                 }
             ]
         },
-       "6": {
+        "6": {
             "title": "Classes",
             "lessons": [
                 {
@@ -1415,7 +1687,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson3/seeing-connections.jpg'><input style='position:absolute; top:33.5%; left:63%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:41%; left:63%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:47.5%; left:63%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:55%; left:64%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:62.5%; left:64%;' name='option' value='e' id=\"quizinput5\" type=\"radio\"></input>",
-                    "answer": ["b"],
+                    "answer": [
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1425,17 +1699,18 @@
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-
                 {
                     "title": " Do We Have Enough Information",
                     "video": "videos/module5/44 - Do We Have Enough Information.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
-                 {
+                {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson3/info.jpg'><input style='position:absolute; top:29%; left:64.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:39%; left:64.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:51%; left:64.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:56%; left:64.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:68%; left:65.5%;' name='option' value='e' id=\"quizinput5\" type=\"radio\"></input>",
-                    "answer": ["e"],
+                    "answer": [
+                        "e"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1454,7 +1729,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson3/coordinates.jpg'><input style='position:absolute; top:29%; left:61%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:38%; left:61%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:48%; left:61.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:56%; left:62%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:66%; left:62%;' name='option' value='e' id=\"quizinput5\" type=\"radio\"></input>",
-                    "answer": ["d"],
+                    "answer": [
+                        "d"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1503,7 +1780,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson3/improvedoc.jpg'><input style='position:absolute; top:25%; left:57%;' name='option' value='a' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:35.5%; left:57.5%;' name='option' value='b' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:46.5%; left:58%;' name='option' value='c' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:53.5%; left:58%;' name='option' value='d' id=\"quizinput5\" type=\"radio\"></input><textarea style='position:absolute; top: 63%; left: 50%; width:46%; height:12%' id=\"quizinput1\" type=\"textarea\"></textarea>",
-                    "answer": ["Returns a summary of the\nPerson's friends.\n@return the names of friends\nseperated by spaces.","b"],
+                    "answer": [
+                        "Returns a summary of the\nPerson's friends.\n@return the names of friends\nseperated by spaces.",
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1552,7 +1832,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson3/finderror.jpg'><input style='position:absolute; top:10%; left:66%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:17%; left:65.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:31%; left:65.3%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:47.3%; left:65.3%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["a"],
+                    "answer": [
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1577,7 +1859,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='80%' width='80%' src='images/lesson3/reference.png' alt='no-image'/> <br/><input style='position:absolute; top:21%; left:81%;height:4%; width:5%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:49%; left:80%;height:4%; width:5%' id=\"quizinput2\" type=\"text\"></input> ",
-                    "answer": ["5","yes"],
+                    "answer": [
+                        "5",
+                        "yes"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1632,7 +1917,158 @@
             ]
         },
         "7": {
-            "title": "Problem Set 2"
+            "title": "Problem Set 2",
+            "lessons": [
+                {
+                    "title": "Short problem 1 - Radius",
+                    "question": "<img src='images/Problem Set 2/2.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 2 - Circle Constructor",
+                    "question": "<img src='images/Problem Set 2/2.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "public Circle()"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 3 -  Circle Constructor v2",
+                    "question": "<img src='images/Problem Set 2/2.3.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "public Circle(double theRadius)"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 4 -  Documentation",
+                    "question": "<img src='images/Problem Set 2/2.4.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "@return"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 6 -  Privacy",
+                    "question": "<img src='images/Problem Set 2/2.6.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "private"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 8 - Something wrong with code",
+                    "question": "<img src='images/Problem Set 2/2.8.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;the instance variable should be public so other classes can use it</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;In the constructor,balance should be assigned to a starting balance:double startingBalance=balance;</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;In the constructor,you should not redefine balance: balance=startingBalance</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;The constructor needs a return type.</input>",
+                    "answer": [
+                        "c"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 9 - What is wrong with sequence of statements",
+                    "question": "<img src='images/Problem Set 2/2.9.jpg' alt='image'><br><p style='text-align:left;  color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;You cannot create a Car object that takes a parameter</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;Car class does not have a drive method,so it is an error to call it</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;the drive method has a return type void and does not return a value to print</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;The drive method does not take a parameter</input>",
+                    "answer": [
+                        "c"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 10 -  Type of variable",
+                    "question": "<img src='images/Problem Set 2/2.10.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "instance variable"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 11 -  Making an object",
+                    "question": "<img src='images/Problem Set 2/2.11.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "constructor"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 12 -  Type of variable",
+                    "question": "<img src='images/Problem Set 2/2.12.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "local variables"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 13 -  Declaring variable",
+                    "question": "<img src='images/Problem Set 2/2.13.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "double theArea=0;"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 14 - Inappropriate Instance Names",
+                    "question": "<img src='images/Problem Set 2/2.14.jpg' alt='image'><br><br><form class='form-horizontal'><div class='form-group text-left' style='margin-left:155px'><input type='checkbox' class='Checkboxinput' value='a'>&nbsp;&nbsp;private double area<br><input type='checkbox' class='Checkboxinput' value='b'>&nbsp;&nbsp;private double parameter<br><input type='checkbox' class='Checkboxinput' value='c'>&nbsp;&nbsp;private double radius<br><input type='checkbox' class='Checkboxinput' value='d'>&nbsp;&nbsp;private double pi<br></div></form>",
+                    "answer": [
+                        "a",
+                        "c",
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 15 -  Implicit Parameter",
+                    "question": "<img src='images/Problem Set 2/2.15.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "employee"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 16 -  Explicit Parameter",
+                    "question": "<img src='images/Problem Set 2/2.16.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "10"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 18 - What do you need to do",
+                    "question": "<img src='images/Problem Set 2/2.18.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;You don't need to do anything </input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;You will need to rewrite some of your code before it will work</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;You need to recompile so your class will work with the new code implementation a value to print</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;Something else</input>",
+                    "answer": [
+                        "a"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 19 -  How to reference to self",
+                    "question": "<img src='images/Problem Set 2/2.19.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 20 -  Assigning instance variable",
+                    "question": "<img src='images/Problem Set 2/2.20.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         },
         "8": {
             "title": "Fundamental Data Types",
@@ -1658,7 +2094,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-1.jpg'><input style='position:absolute; top:60%; left:27%; height:8%; width:40%' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["-727379968"],
+                    "answer": [
+                        "-727379968"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1677,7 +2115,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-2.jpg'><input style='position:absolute; top:70%; left:30%; height:8%; width:40%' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["1.0E12"],
+                    "answer": [
+                        "1.0E12"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1696,7 +2136,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-3.jpg'><input style='position:absolute; top:36%; left:31%; height:7%; width:40%' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["434.99999999999994"],
+                    "answer": [
+                        "434.99999999999994"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1721,7 +2163,16 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-4.png'><input style='position:absolute; top:16%; left:25%; height:6%; width:10%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:29%; left:25%; height:6%; width:10%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:45%; left:26%; height:6%; width:10%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:59%; left:25.5%; height:6%; width:10%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:10.5%; left:61.5%; height:6%; width:10%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:27.5%; left:56%; height:6%; width:10%' id=\"quizinput6\" type=\"text\"></input><input style='position:absolute; top:42%; left:55.5%; height:6%; width:10%' id=\"quizinput7\" type=\"text\"></input><input style='position:absolute; top:57%; left:55%; height:6%; width:9%' id=\"quizinput8\" type=\"text\"></input>",
-                    "answer": ["int","double","long","double","123","123","123L","123"],
+                    "answer": [
+                        "int",
+                        "double",
+                        "long",
+                        "double",
+                        "123",
+                        "123",
+                        "123L",
+                        "123"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -1740,7 +2191,14 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-5.jpg'><input style='position:absolute; top:37%; left:48%; height:9%; width:13%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:49%; left:48%; height:9%; width:14%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:62%; left:48%; height:8%; width:14%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:36.5%; left:76%; height:9%; width:16%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:50%; left:76%; height:9%; width:16%' id=\"quizinput5\" type=\"text\"></input><input style='position:absolute; top:62.5%; left:76%; height:9%; width:16%' id=\"quizinput6\" type=\"text\"></input>",
-                    "answer": ["42","16","4","42","16","4"],
+                    "answer": [
+                        "42",
+                        "16",
+                        "4",
+                        "42",
+                        "16",
+                        "4"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -1759,7 +2217,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-6.png'><input style='position:absolute; top:59%; left:33%; height:5%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:67%; left:33%; height:5%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["43","5"],
+                    "answer": [
+                        "43",
+                        "5"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1796,7 +2257,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-7.jpg'><input style='position:absolute; top:47%; left:79%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:55%; left:79%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input> <input style='position:absolute; top:62%; left:74.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input> <input style='position:absolute; top:70%; left:75%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1851,7 +2314,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-8.jpg'><input style='position:absolute; top:41.5%; right:70.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:48%; right:70.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input> <input style='position:absolute; top:55%; right:70.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input> <input style='position:absolute; top:61%; right:70.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["b"],
+                    "answer": [
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1876,7 +2341,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-9.jpg'><input style='position:absolute; top:49.5%; left:70%; height:7%; width:15%' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["434"],
+                    "answer": [
+                        "434"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1913,7 +2380,13 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-10.jpg'><input style='position:absolute; top:40%; left:52%; height:5%; width:15%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:47.5%; left:52%; height:5%; width:15%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:54%; left:52%; height:5%; width:15%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:60.5%; left:53%; height:5%; width:15%' id=\"quizinput4\" type=\"text\"></input><input style='position:absolute; top:67.5%; left:53%; height:5%; width:15%' id=\"quizinput5\" type=\"text\"></input>",
-                    "answer": ["1000","2","2","255","0"],
+                    "answer": [
+                        "1000",
+                        "2",
+                        "2",
+                        "255",
+                        "0"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming <br><br> <a>https://www.udacity.com/wiki/cs046/factsheets</a>"
                 },
@@ -1944,7 +2417,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-11.jpg'><input style='position:absolute; top:64%; left:7%; height:8%; width:60%' id=\"quizinput1\" type=\"text\"></input>",
-                    "answer": ["red = Math.min(red + ADDED_RED, MAX_RED);"],
+                    "answer": [
+                        "red = Math.min(red + ADDED_RED, MAX_RED);"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -1992,7 +2467,12 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-12.jpg'><input style='position:absolute; top:28%; left:47.5%; height:5%; width:6%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:28%; left:55%; height:5%; width:6%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:43%; left:44.5%; height:5%; width:18%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:57%; left:44%; height:5%; width:18%' id=\"quizinput4\" type=\"text\"></input>",
-                    "answer": ["6","d","\"%4.2 f\"","\"%5\""],
+                    "answer": [
+                        "6",
+                        "d",
+                        "\"%4.2 f\"",
+                        "\"%5\""
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2047,7 +2527,12 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-13.png'><input style='position:absolute; top:51%; left:46%; height:5%; width:25%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:58%; left:46%; height:5%; width:25%' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:65%; left:46%; height:5%; width:25%' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:72%; left:46%; height:5%; width:25%' id=\"quizinput4\" type=\"text\"></input>",
-                    "answer": ["7","city","3","HelloUdacity"],
+                    "answer": [
+                        "7",
+                        "city",
+                        "3",
+                        "HelloUdacity"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2156,7 +2641,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-14.png' alt='no-image'/> <br/><textarea style='position:absolute; top: 30%; left: 52%; width:30%; height:25%' id=\"quizinput1\" type=\"textarea\"></textarea>",
-                    "answer": ["firstOccurenceofMadHatter\noccurrencesofAlice"],
+                    "answer": [
+                        "firstOccurenceofMadHatter\noccurrencesofAlice"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2187,7 +2674,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-15.jpg'><input style='position:absolute; top:71%; left:48%; height:5%; width:25%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["5 rows"],
+                    "answer": [
+                        "5 rows"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2206,7 +2695,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-16.jpg'><input style='position:absolute; top:55%; left:72%; height:6%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:71%; left:72%; height:6%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["2","1"],
+                    "answer": [
+                        "2",
+                        "1"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2225,7 +2717,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-17.jpg'><input style='position:absolute; top:35%; left:69%; height:6%; width:20%' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:55%; left:69%; height:6%; width:20%' id=\"quizinput2\" type=\"text\"></input>",
-                    "answer": ["3","2"],
+                    "answer": [
+                        "3",
+                        "2"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2244,7 +2739,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson4/image-18.jpg'><input style='position:absolute; top:44%; left:63%; height:6%; width:20%' id=\"quizinput1\" type=\"text\">",
-                    "answer": ["8"],
+                    "answer": [
+                        "8"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2320,6 +2817,17 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/discount.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 43%; left: 12%;height:9%; width:9%' id=\"quizinput1\" type=\"text\"></input> <input style='position:absolute; top: 54.5%; left: 12%; height:5.5%; width:10%'id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top: 62%; left: 12%; height:7%; width:10%' id=\"quizinput3\" type=\"text\"></input>",
+                    "answer": [
+                        "85",
+                        "90",
+                        "85"
+                    ],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Discounted Prices",
                     "video": "videos/module8/07 - Discounted Prices.mp4",
                     "type": "lesson",
@@ -2329,6 +2837,17 @@
                     "title": " Is This Discount the Same",
                     "video": "videos/module8/08 - Is This Discount the Same.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/discountsame.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 41%; left: 76.3%;height:7%; width:11%' id=\"quizinput1\" type=\"text\"></input> <input style='position:absolute; top: 50%; left: 76.5%; height:6%; width:9%'id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top: 58%; left: 76%; height:7%; width:10%' id=\"quizinput3\" type=\"text\"></input>",
+                    "answer": [
+                        "85",
+                        "80",
+                        "85"
+                    ],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -2368,6 +2887,17 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson5/relational.jpg'><input style='position:absolute; top:26%; left:45.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:38%; left:45%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:47.5%; left:45%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:26.5%; left:54%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input><input style='position:absolute; top:38%; left:53.5%;' name='option' value='e' id=\"quizinput5\" type=\"radio\"></input><input style='position:absolute; top:48%; left:53.5%;' name='option' value='f' id=\"quizinput6\" type=\"radio\"></input>",
+                    "answer": [
+                        "a",
+                        "b",
+                        "f"
+                    ],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Practice With Relational Operators",
                     "video": "videos/module8/15 - Practice With Relational Operators.mp4",
                     "type": "lesson",
@@ -2377,6 +2907,17 @@
                     "title": " More Practice with Relational Operators",
                     "video": "videos/module8/16 - More Practice with Relational Operators.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/relational-op.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 23%; left: 63%;height:9%; width:22%' id=\"quizinput1\" type=\"text\"></input> <input style='position:absolute; top: 35%; left: 63%; height:6%; width:22%'id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top: 45%; left: 63%; height:8%; width:22%' id=\"quizinput3\" type=\"text\"></input>",
+                    "answer": [
+                        "cay+1>sara",
+                        "cay+1<sara",
+                        "cay+1==sara"
+                    ],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -2410,6 +2951,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson5/thinkofcode.png'><input style='position:absolute; top:19%; left:49%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:35%; left:49%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:50%; left:49%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:64%; left:49%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
+                    "answer": [
+                        "c"
+                    ],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " What Do You Think About This Code",
                     "video": "videos/module8/22 - What Do You Think About This Code.mp4",
                     "type": "lesson",
@@ -2419,6 +2969,15 @@
                     "title": " Comparing Decimals",
                     "video": "videos/module8/01 - Comparing Decimals.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/cmpdecimals.jpg' alt='no-image'/> <br/><input style='position:absolute; top:57%; left:28%; width:31%;' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "rootSquared is 2.0000000000000004"
+                    ],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -2434,6 +2993,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/cmpstrings.jpg' alt='no-image'/> <br/><input style='position:absolute; top:59%; left:28%; width:34%;' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "firstAndSecond is Udacity"
+                    ],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Comparing Strings",
                     "video": "videos/module8/04 - Comparing Strings.mp4",
                     "type": "lesson",
@@ -2446,6 +3014,17 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/nullmean.jpg' alt='no-image'/> <br/><input style='position:absolute; top:36%; left:17%; width:41%;' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:51%; left:18%; width:40%;' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:65%; left:19%; width:40%;' id=\"quizinput3\" type=\"text\"></input>",
+                    "answer": [
+                        "statement.equals(\"No comment\")",
+                        "statement.length()==0",
+                        "statement==null"
+                    ],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " What Does Null Mean",
                     "video": "videos/module8/06 - What Does Null Mean.mp4",
                     "type": "lesson",
@@ -2455,6 +3034,18 @@
                     "title": " Find the Error",
                     "video": "videos/module8/07 - Find the Error.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/error.png' alt='no-image'/> <br/><input style='position:absolute; top:26%; left:12.5%; height:8.5%;width:3.5%;' id=\"quizinput1\" type=\"text\"></input><input style='position:absolute; top:38%; left:12.5%; height:8.5%;width:3.5%;' id=\"quizinput2\" type=\"text\"></input><input style='position:absolute; top:49%; left:12.5%; height:8.5%;width:3.5%;' id=\"quizinput3\" type=\"text\"></input><input style='position:absolute; top:62%; left:12.5%; height:8.5%;width:3.5%;' id=\"quizinput4\" type=\"text\"></input>",
+                    "answer": [
+                        "d",
+                        "b",
+                        "a",
+                        "c"
+                    ],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -2491,6 +3082,16 @@
                     "title": " Both Threes",
                     "video": "videos/module8/13 - Both Threes.mp4",
                     "type": "lesson",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Quiz",
+                    "question": "<img height='80%' width='80%' src='images/lesson5/threes.jpg' alt='no-image'/> <br/><input style='position:absolute; top: 30%; left: 28%;height:10%; width:30%' id=\"quizinput1\" type=\"text\"></input> <br/><input style='position:absolute; top: 53%; left: 28%; height:10%; width:30%'id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": [
+                        "x==3&&y==3",
+                        "x==3||y==3"
+                    ],
+                    "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
@@ -2562,7 +3163,100 @@
             ]
         },
         "11": {
-            "title": "Problem Set 3"
+            "title": "Problem Set 3",
+            "lessons": [
+                {
+                    "title": "Short Problem 1 - Constant Seconds Per Minute",
+                    "question": "<img src='images/Problem Set 3/3.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 2 - Second Per Minute",
+                    "question": "<img src='images/Problem Set 3/3.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 3 - Whole Days",
+                    "question": "<img src='images/Problem Set 3/3.3.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 4 - Value of This Expression",
+                    "question": "<img src='images/Problem Set 3/3.4.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 5 - What is Printed",
+                    "question": "<img src='images/Problem Set 3/3.5.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 6 - 7 divided by 2 in Java",
+                    "question": "<img src='images/Problem Set 3/3.6.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 7 - 7 modulo 2",
+                    "question": "<img src='images/Problem Set 3/3.7.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 11 - Formatting printf",
+                    "question": "<img src='images/Problem Set 3/3.11.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 14 - A String Called book",
+                    "question": "<img src='images/Problem Set 3/3.14.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 16 - Legal Drinking Age",
+                    "question": "<img src='images/Problem Set 3/3.16.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 17 - Discounted Price",
+                    "question": "<img src='images/Problem Set 3/3.17.jpg' alt='image'><br><input class='input-sm' id=\"quizinput1\" type=\"text\"></input>&nbsp;&nbsp;<input class='input-sm' id=\"quizinput1\" type=\"text\"></input>&nbsp;&nbsp;<input class='input-sm' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 19 - Substring",
+                    "question": "<img src='images/Problem Set 3/3.19.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 20 - What Does This Code Print?",
+                    "question": "<img src='images/Problem Set 3/3.20.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": "",
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         },
         "12": {
             "title": "Loops",
@@ -2582,7 +3276,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-1.jpg'><input style='position:absolute; top:41%; left:23.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:50%; left:24.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:59%; left:24%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:66%; left:25%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["b"],
+                    "answer": [
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2631,7 +3327,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-2.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:60%; left:17%\" type=\"text\"></input>",
-                    "answer": ["2000"],
+                    "answer": [
+                        "2000"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2668,10 +3366,13 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-3.png' alt='no-image'/><input style='position:absolute; top: 24%; left: 7%;' type='checkbox' class='Checkboxinput' value='a'><input style='position:absolute; top: 27.5%; left: 7%;' type='checkbox' class='Checkboxinput' value='b'><input style='position:absolute; top: 31.5%; left: 7%;' type='checkbox' class='Checkboxinput' value='c'><input style='position:absolute; top: 43%; left: 7%;' type='checkbox' class='Checkboxinput' value='d'><input style='position:absolute; top: 48%; left: 7%;' type='checkbox' class='Checkboxinput' value='e'><input style='position:absolute; top: 55%; left: 6%;' type='checkbox' class='Checkboxinput' value='f'>",
-                    "answer": ["c","e"],
+                    "answer": [
+                        "c",
+                        "e"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
-                },	
+                },
                 {
                     "title": " Understanding the Loop",
                     "video": "videos/module9/15 - Understanding the Loop.mp4",
@@ -2753,7 +3454,20 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-4.png' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:20%; left:54%; width:8%\" type=\"text\"></input><input id=\"quizinput2\" style=\"position:absolute; top:26%; left:54%; width:8%\" type=\"text\"></input><input id=\"quizinput3\" style=\"position:absolute; top:32%; left:54%; width:8%\" type=\"text\"></input><input id=\"quizinput4\" style=\"position:absolute; top:38%; left:54%; width:8%\" type=\"text\"></input><input id=\"quizinput5\" style=\"position:absolute; top:20%; left:66%; width:10%\" type=\"text\"></input><input id=\"quizinput6\" style=\"position:absolute; top:26%; left:66%; width:10%\" type=\"text\"></input><input id=\"quizinput7\" style=\"position:absolute; top:32%; left:66%; width:10%\" type=\"text\"></input><input id=\"quizinput8\" style=\"position:absolute; top:38%; left:66%; width:10%\" type=\"text\"></input><input id=\"quizinput9\" style=\"position:absolute; top:20%; left:84%; width:10%\" type=\"text\"></input><input id=\"quizinput10\" style=\"position:absolute; top:26%; left:84%; width:10%\" type=\"text\"></input><input id=\"quizinput11\" style=\"position:absolute; top:32%; left:84%; width:10%\" type=\"text\"></input><input id=\"quizinput12\" style=\"position:absolute; top:38%; left:84%; width:10%\" type=\"text\"></input>",
-                    "answer": ["0","","","","","","","","100","","",""],
+                    "answer": [
+                        "0",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "100",
+                        "",
+                        "",
+                        ""
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2772,7 +3486,11 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-5.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:58%; left:20%; width:28%; height:7%\" type=\"text\"></input><input id=\"quizinput2\" style=\"position:absolute; top:30%; left:64%; width:26%; height:12%\" type=\"text\"></input><input id=\"quizinput3\" style=\"position:absolute; top:55%; left:63%; width:28%; height:7%\" type=\"text\"></input>",
-                    "answer": ["temp >= 10","3","2"],
+                    "answer": [
+                        "temp >= 10",
+                        "3",
+                        "2"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2905,7 +3623,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-6.jpg'><input style='position:absolute; top:42.5%; left:9.5%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:61%; left:9.5%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:42.5%; left:58%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:56.5%; left:58%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["b"],
+                    "answer": [
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2924,7 +3644,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-7.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:55%; left:87%; width:8%\" type=\"text\"></input>",
-                    "answer": ["11"],
+                    "answer": [
+                        "11"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2943,7 +3665,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-8.png' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:60%; left:57%; width:10%\" type=\"text\"></input>",
-                    "answer": ["11"],
+                    "answer": [
+                        "11"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2962,7 +3686,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-9.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:48%; left:20%; width:55%\" type=\"text\"></input><input id=\"quizinput2\" style=\"position:absolute; top:57%; left:68%\" type=\"text\"></input>",
-                    "answer": ["10 9 8 7 6 5 4 3 2 1 0","11"],
+                    "answer": [
+                        "10 9 8 7 6 5 4 3 2 1 0",
+                        "11"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -2987,7 +3714,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-10.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:52%; left:57%; width:20%\" type=\"text\"></input>",
-                    "answer": ["4"],
+                    "answer": [
+                        "4"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3006,7 +3735,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-11.jpg'><input style='position:absolute; top:50%; left:8%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:58%; left:8%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:63%; left:8%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:68%; left:8%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["a"],
+                    "answer": [
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3025,7 +3756,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-12.jpg'><input style='position:absolute; top:20%; left:67%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:36%; left:66%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:49%; left:67%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:60%; left:66.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3098,7 +3831,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-13.jpg'><input style='position:absolute; top:42%; left:34%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:48%; left:34%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:58.5%; left:33.5%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:65%; left:34%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3135,7 +3870,108 @@
             ]
         },
         "13": {
-            "title": "Problem Set 4"
+            "title": "Problem Set 4",
+            "lessons": [
+                {
+                    "title": "Short Question #2 - What Does This Print",
+                    "question": "<img src='images/Problem Set 4/4.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "-1"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #3 - What Does This Print 2",
+                    "question": "<img src='images/Problem Set 4/4.3.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "oops"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #4 - What Does This Print 3",
+                    "question": "<img src='images/Problem Set 4/4.4.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "D"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #5 - What Does This Print 4",
+                    "question": "<img src='images/Problem Set 4/4.5.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "60"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #6 - What Does This Print 5",
+                    "question": "<img src='images/Problem Set 4/4.6.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "not equal"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #8 Complete This If Statement",
+                    "question": "<img src='images/Problem Set 4/4.8.jpg' alt='image'><br><h4>if( &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp; )</h4>",
+                    "answer": [
+                        "name==null"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #9 - Lexicographic Order 1",
+                    "question": "<img src='images/Problem Set 4/4.9.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "123"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #10 - Lexicographic Order 2",
+                    "question": "<img src='images/Problem Set 4/4.10.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "lesson2"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #14 - Boolean Not Operator",
+                    "question": "<img src='images/Problem Set 4/4.14.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #16 - What Does This Print 6",
+                    "question": "<img src='images/Problem Set 4/4.16.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "2 4 8 16 32 64 128"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Question #17 - What Does This Print 7",
+                    "question": "<img src='images/Problem Set 4/4.17.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "Printing 1 to 10:"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         },
         "14": {
             "title": "Loops",
@@ -3215,7 +4051,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-14.jpg'><input style='position:absolute; top:33.5%; left:52%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:45%; left:52%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:62%; left:52%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:72%; left:52%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["b"],
+                    "answer": [
+                        "b"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3366,7 +4204,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-15.png' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:54%; left:57%; width:10%\" type=\"text\"></input>",
-                    "answer": ["3"],
+                    "answer": [
+                        "3"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3385,7 +4225,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-16.png' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:57%; left:16%; width:10%\" type=\"text\"></input>",
-                    "answer": ["3"],
+                    "answer": [
+                        "3"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3404,7 +4246,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-17.png' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:49.5%; left:53.5%; width:10%\" type=\"text\"></input>",
-                    "answer": ["4"],
+                    "answer": [
+                        "4"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3423,7 +4267,10 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-18.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:45%; left:62%; width:15%\" type=\"text\"></input><input id=\"quizinput2\" style=\"position:absolute; top:60%; left:62%; width:15%\" type=\"text\"></input>",
-                    "answer": ["0","4"],
+                    "answer": [
+                        "0",
+                        "4"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3442,7 +4289,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-19.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:43%; left:12%; width:25%\" type=\"text\"></input>",
-                    "answer": ["Hell"],
+                    "answer": [
+                        "Hell"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3473,7 +4322,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-20.jpg' alt='no-image'/><input style='position:absolute; top: 36%; left: 25%;' type='checkbox' class='Checkboxinput' value='a'><input style='position:absolute; top: 47.5%; left: 25%;' type='checkbox' class='Checkboxinput' value='b'><input style='position:absolute; top: 58%; left: 25%;' type='checkbox' class='Checkboxinput' value='c'>",
-                    "answer": ["c"],
+                    "answer": [
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3492,7 +4343,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-21.jpg' alt='no-image'/><input id=\"quizinput1\" style=\"position:absolute; top:46%; left:72%; width:17%; height:6%\" type=\"text\"></input>",
-                    "answer": ["e"],
+                    "answer": [
+                        "e"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3511,7 +4364,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-22.png' alt='no-image'/><input style='position:absolute; top: 48.5%; left: 16%;' type='checkbox' class='Checkboxinput' value='a'><input style='position:absolute; top: 57.5%; left: 16%;' type='checkbox' class='Checkboxinput' value='b'><input style='position:absolute; top: 65.5%; left: 16.5%;' type='checkbox' class='Checkboxinput' value='c'><input style='position:absolute; top: 72.5%; left: 16%;' type='checkbox' class='Checkboxinput' value='d'>",
-                    "answer": ["a"],
+                    "answer": [
+                        "a"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3530,7 +4385,9 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-23.jpg'><input style='position:absolute; top:39.5%; left:8%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:51%; left:8%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:62%; left:8%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><input style='position:absolute; top:71%; left:8.5%;' name='option' value='d' id=\"quizinput4\" type=\"radio\"></input>",
-                    "answer": ["d"],
+                    "answer": [
+                        "d"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3549,7 +4406,11 @@
                 {
                     "title": "Quiz",
                     "question": "<img height='100%' width='100%' src='images/lesson6/image-24.jpg' alt='no-image'/><input style='position:absolute; top: 46%; left: 25%;' type='checkbox' class='Checkboxinput' value='a'><input style='position:absolute; top: 54%; left: 25%;' type='checkbox' class='Checkboxinput' value='b'><input style='position:absolute; top: 61%; left: 25%;' type='checkbox' class='Checkboxinput' value='c'>",
-                    "answer": ["a","b","c"],
+                    "answer": [
+                        "a",
+                        "b",
+                        "c"
+                    ],
                     "type": "quiz",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
@@ -3568,7 +4429,126 @@
             ]
         },
         "15": {
-            "title": "Problem Set 5"
+            "title": "Problem Set 5",
+            "lessons": [
+                {
+                    "title": "Short Problem 1 ",
+                    "question": "<img src='images/Problem Set 5/5.1.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;5</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;6</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;nothing,The code does not compile</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;nothing,this is an infinite loop.</input>",
+                    "answer": [
+                        "c"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 2",
+                    "question": "<img src='images/Problem Set 5/5.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "6"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 3",
+                    "question": "<img src='images/Problem Set 5/5.3.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "5 4 3 2 1 0 -1"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 4",
+                    "question": "<img src='images/Problem Set 5/5.4.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "0 2  4 6 8 10 12"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 6",
+                    "question": "<img src='images/Problem Set 5/5.6.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "6"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 9",
+                    "question": "<img src='images/Problem Set 5/5.9.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "2"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 12",
+                    "question": "<img src='images/Problem Set 5/5.12.jpg' alt='image'><br><input class='input-md' id=\"quizinput1\" type=\"text\"></input>&nbsp;&nbsp;<input class='input-md' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 13",
+                    "question": "<img src='images/Problem Set 5/5.13.jpg' alt='image'><br><input class='input-md' id=\"quizinput1\" type=\"text\"></input>&nbsp;&nbsp;<input class='input-md' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 14",
+                    "question": "<img src='images/Problem Set 5/5.14.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 15",
+                    "question": "<img src='images/Problem Set 5/5.15.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 16",
+                    "question": "<img src='images/Problem Set 5/5.16.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 17",
+                    "question": "<img src='images/Problem Set 5/5.17.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 18",
+                    "question": "<img src='images/Problem Set 5/5.18.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         },
         "16": {
             "title": "ArrayLists and Arrays",
@@ -3844,6 +4824,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Quiz",
+                    "question": "<img height='100%' width='100%' src='images/lesson7/codecorrect.jpg'><input style='position:absolute; top:55%; left:12%;' name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><input style='position:absolute; top:60.5%; left:12%;' name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><input style='position:absolute; top:68%; left:12%;' name='option' value='c' id=\"quizinput3\" type=\"radio\"></input>",
+                    "answer": [
+                        "a"
+                    ],
+                    "type": "quiz",
+                    "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
                     "title": " Is This Code Correct",
                     "video": "videos/module11/46 - Is This Code Correct.mp4",
                     "type": "lesson",
@@ -3864,7 +4853,72 @@
             ]
         },
         "17": {
-            "title": "Problem Set 6"
+            "title": "Problem Set 6",
+            "lessons": [
+                {
+                    "title": "Short Problem #1",
+                    "question": "<img src='images/Problem Set 6/6.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "ArrayList<Color> palette = new ArrayList<Color>();"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #2",
+                    "question": "<img src='images/Problem Set 6/6.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "palette.add(Color.RED);"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #3",
+                    "question": "<img src='images/Problem Set 6/6.3.jpg' alt='image'><br><h4>Color color = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input> &nbsp; ;</h4>",
+                    "answer": [
+                        "palette.get(8))"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #5",
+                    "question": "<img src='images/Problem Set 6/6.5.jpg' alt='image'><br><h4>int size = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp; ;</h4>",
+                    "answer": [
+                        "palette.size()"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #6",
+                    "question": "<img src='images/Problem Set 6/6.6.jpg' alt='image'><br><h4>Color color = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp; ;</h4>",
+                    "answer": [
+                        "palette,get(palette.size()-1)"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #9",
+                    "question": "<img src='images/Problem Set 6/6.9.jpg' alt='image'><br><h4>int index = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp; ;</h4>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #10",
+                    "question": "<img src='images/Problem Set 6/6.10.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "[Ann,Cal]"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         },
         "18": {
             "title": "ArrayLists and Arrays",
@@ -4154,7 +5208,163 @@
             ]
         },
         "19": {
-            "title": "Problem Set 7"
+            "title": "Problem Set 7",
+            "lessons": [
+                {
+                    "title": "Short problem 1 - Prices",
+                    "question": "<img src='images/Problem Set 7/7.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "double[] prices;"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 2 -  Scores",
+                    "question": "<img src='images/Problem Set 7/7.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "new int[50]"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 3 -  How many elements can it hold",
+                    "question": "<img src='images/Problem Set 7/7.3.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "12"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 4 -   Initial value",
+                    "question": "<img src='images/Problem Set 7/7.4.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "0"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 5 -   Element at index 9",
+                    "question": "<img src='images/Problem Set 7/7.5.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "temperatures[9]"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 6 -   First element",
+                    "question": "<img src='images/Problem Set 7/7.6.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "scores[0]=95;"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 7 -   Prime Numbers",
+                    "question": "<img src='images/Problem Set 7/7.7.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "{2,3,5,7}"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 8 - Array indices",
+                    "question": "<img src='images/Problem Set 7/7.8.jpg' alt='image'><br><input class='input-md' id=\"quizinput1\" type=\"text\"></input>&nbsp;&nbsp;<input class='input-md' id=\"quizinput2\" type=\"text\"></input>",
+                    "answer": [
+                        "0",
+                        "11"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 9 -   Array length",
+                    "question": "<img src='images/Problem Set 7/7.9.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "scores.length"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 10 -   Last element",
+                    "question": "<img src='images/Problem Set 7/7.10.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "scores[scores.length-1]=98;"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 11 -   First element",
+                    "question": "<img src='images/Problem Set 7/7.11.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "scores[0]"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 12 -   What does it print",
+                    "question": "<img src='images/Problem Set 7/7.12.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "101"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 13 -   What does it print 2",
+                    "question": "<img src='images/Problem Set 7/7.13.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "78"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 14 -   Current Size",
+                    "question": "<img src='images/Problem Set 7/7.14.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "currentSize++"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 15 -   Swapping",
+                    "question": "<img src='images/Problem Set 7/7.15.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "temp"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 18 -   Value of sum",
+                    "question": "<img src='images/Problem Set 7/7.18.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "25"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 19 -   Value of total",
+                    "question": "<img src='images/Problem Set 7/7.19.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "34"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         },
         "20": {
             "title": "More About Classes",
@@ -4456,7 +5666,119 @@
             ]
         },
         "21": {
-            "title": "Problem Set 8"
+            "title": "Problem Set 8",
+            "lessons": [
+                {
+                    "title": "Short Problem #1 - Instantiate 2D Array",
+                    "question": "<img src='images/Problem Set 8/8.1.jpg' alt='image'><br><h4>int[][] numbers = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp;;</h4>",
+                    "answer": [
+                        "new int[4][5]"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #2 - Instantiate an element in 2D Array",
+                    "question": "<img src='images/Problem Set 8/8.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "matrix[0][0]=10;"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #3 - Find num rows in 2D Array",
+                    "question": "<img src='images/Problem Set 8/8.3.jpg' alt='image'><br><h4>int rows = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp;;</h4>",
+                    "answer": [
+                        "matrix.length"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #4 - Find num columns in 2D Array",
+                    "question": "<img src='images/Problem Set 8/8.4.jpg' alt='image'><br><h4>int columns = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp;;</h4>",
+                    "answer": [
+                        "matrix[0].length"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #5 - The Matrix",
+                    "question": "<img src='images/Problem Set 8/8.5.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "matrix[matrix.length-1][matrix[0].length-1]=54;"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #6 - The Matrix part2",
+                    "question": "<img src='images/Problem Set 8/8.6.jpg' alt='image'><br><h4>System.out.println( &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp;);</h4>",
+                    "answer": [
+                        "matrix[matrix.length-1][matrix[0].length-1]"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #9 - Method Concepts Part 2",
+                    "question": "<br><br><h2 style='color:green'>A(n)&nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input><br>method is not invoked on any object",
+                    "answer": [
+                        "static"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #10 - Method Concepts Part 3",
+                    "question": "<br><br><h2 style='color:green'>A(n)&nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input><br>method is invoked on a specific instance of a class",
+                    "answer": [
+                        "instance"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #11 - Dinner",
+                    "question": "<img src='images/Problem Set 8/8.11.jpg' alt='image'><br><h4>double tip = &nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp;;</h4>",
+                    "answer": [
+                        "Dinner.tip(24.50)"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem #13 - SalesInovice",
+                    "question": "<img src='images/Problem Set 8/8.13.jpg' alt='image'><br><h4 style='text-align:left'><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp;TAX_RATE=0.085;</h4>",
+                    "answer": [
+                        "public static final double"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem #14 -System Static Variables",
+                    "question": "<img src='images/Problem Set 8/8.14.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>&nbsp;<h4>and</h4>&nbsp;<input class='input-lg' id=\"quizinput2\" type=\"text\">",
+                    "answer": [
+                        "in",
+                        "out"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": " Short Problem #15 - What is Printed",
+                    "question": "<img src='images/Problem Set 8/8.15.jpg' alt='image'><br><h4>x = &nbsp;<input class='input-md' id=\"quizinput1\" type=\"text\"></input>&nbsp;y = &nbsp;<input class='input-md' id=\"quizinput2\" type=\"text\"></h4>",
+                    "answer": [
+                        "2",
+                        "15"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         },
         "22": {
             "title": "Interfaces and Inheritance",
@@ -4504,6 +5826,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "House Equals New Dog ",
+                    "question": "<img src='images/Lesson 9/9.1.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;The program will declare a variable of type House and store a new Dog in it.</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;Error: incompatible types. Dog is not a kind of House</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;Error: Dog is abstract; cannot be instantiated.</input>",
+                    "answer": [
+                        "b"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
                     "title": " House Equals New Dog",
                     "video": "videos/module14/08 - House Equals New Dog.mp4",
                     "type": "lesson",
@@ -4516,6 +5847,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Drawable Equals New Drawable",
+                    "question": "<img src='images/Lesson 9/9.2.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;You can't assign an object of a class to a variable of an interface type.</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;You can't construct an interface type</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;You can't assign an object of a class to a variable of an interface type the object's class does not implement.</input>",
+                    "answer": [
+                        "b"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
                     "title": " Drawable Equals New Drawable",
                     "video": "videos/module14/10 - Drawable Equals New Drawable.mp4",
                     "type": "lesson",
@@ -4526,6 +5866,15 @@
                     "video": "videos/module14/11 - Drawable Equals New Rectangle.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "Drawable Equals New Rectangle",
+                    "question": "<img src='images/Lesson 9/9.3.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;You can't assign an object of a class to a variable of an interface type.</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;You can't assign a value of an interface type to a variable of a class type.</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;You can't assign an object of a class to a variable of an interface type the object's class does not implement.</input>",
+                    "answer": [
+                        "c"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
                 },
                 {
                     "title": " Drawable Equals New Rectangle",
@@ -4574,6 +5923,15 @@
                     "video": "videos/module14/19 - What If We Forget to Check the Type.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "What If We Forget to Check the Type?",
+                    "question": "<img src='images/Lesson 9/9.4.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;The program will run the same as before.</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;The Houses move even though they should be stationary.</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;There will be a compile time error because Drawables can't be cast to type moveable</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;There will be a run-time error because some Drawables cannot be cast to type Moveable</input>",
+                    "answer": [
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
                 },
                 {
                     "title": " What If We Forget to Check the Type",
@@ -4660,6 +6018,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Strings Are Comparable",
+                    "question": "<img src='images/Lesson 9/9.5.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;&nbsp;-4</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;&nbsp;4</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;&nbsp;0</input><br><input name='option' value='c' id=\"quizinput4\" type=\"radio\">&nbsp;&nbsp;true</input><br><input name='option' value='c' id=\"quizinput5\" type=\"radio\">&nbsp;&nbsp;false</input>",
+                    "answer": [
+                        "a"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
                     "title": " Strings Are Comparable",
                     "video": "videos/module14/34 - Strings Are Comparable.mp4",
                     "type": "lesson",
@@ -4684,6 +6051,18 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Inheritance",
+                    "question": "<img src='images/Lesson 9/9.6.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input><br><input class='input-lg' id=\"quizinput2\" type=\"text\"></input><br><input class='input-lg' id=\"quizinput3\" type=\"text\"></input><br><input class='input-lg' id=\"quizinput4\" type=\"text\"></input>",
+                    "answer": [
+                        "suv",
+                        "vehicle",
+                        "none",
+                        "car,vehicle"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
                     "title": " Inheritance",
                     "video": "videos/module14/38 - Inheritance.mp4",
                     "type": "lesson",
@@ -4706,6 +6085,17 @@
                     "video": "videos/module14/41 - A Subclass.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "A Subclass",
+                    "question": "<img src='images/Lesson 9/9.7.jpg' alt='image'><br><h4>inherits&nbsp;<input class='input-lg' id=\"quizinput1\" type=\"text\"></input><br>overrides &nbsp;<input class='input-lg' id=\"quizinput2\" type=\"text\"></input><br>adds&nbsp;<input class='input-lg' id=\"quizinput3\" type=\"text\"></input></h4>",
+                    "answer": [
+                        "setText,setAnswer,checkAnswer",
+                        "display",
+                        "addChoice"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
                 },
                 {
                     "title": " A Subclass",
@@ -4756,6 +6146,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Can We Mix Question Types",
+                    "question": "<img src='images/Lesson 9/9.8.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><div class='col-md-1'><br><input name='option' value='a' id=\"quizinput1\" type=\"radio\"></input><br><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\"></input><br><br><br><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\"></input><br><br><br><input name='option' value='c' id=\"quizinput4\" type=\"radio\"></input></div><div class='col-md-11'><img src='images/Lesson 9/9.8.1.jpg'></div>",
+                    "answer": [
+                        "b"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
                     "title": " Can We Mix Question Types",
                     "video": "videos/module14/50 - Can We Mix Question Types.mp4",
                     "type": "lesson",
@@ -4774,6 +6173,15 @@
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
                 },
                 {
+                    "title": "Which Display Method Is Called",
+                    "question": "<img src='images/Lesson 9/9.9.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;Always Question.display</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;Always ChoiceQuestion.display</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;Sometimes Question.display, sometimes choiceQuestion.display</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;It would be something else</input>",
+                    "answer": [
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
                     "title": " Which Display Method Is Called",
                     "video": "videos/module14/53 - Which Display Method Is Called.mp4",
                     "type": "lesson",
@@ -4784,6 +6192,15 @@
                     "video": "videos/module14/54 - The Right Display Method Is Called.mp4",
                     "type": "lesson",
                     "tips": "Video Source: udacity.com <br> Intro to Java Programming"
+                },
+                {
+                    "title": "The Right Display Method Is Called",
+                    "question": "<img src='images/Lesson 9/9.10.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;OO Programming</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;Encapsulation</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;Inheritance</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;Polymorphism</input>",
+                    "answer": [
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
                 },
                 {
                     "title": " The Right Display Method Is Called",
@@ -4811,8 +6228,153 @@
                 }
             ]
         },
-        "23":{
-            "title": "Problem Set 9"
+        "23": {
+            "title": "Problem Set 9",
+            "lessons": [
+                {
+                    "title": "Short problem 1 - Interface",
+                    "question": "<img src='images/Problem Set 9/9.1.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "interface"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 2 - Interface2",
+                    "question": "<img src='images/Problem Set 9/9.2.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "public void read();"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 3 -  Implementing Interface",
+                    "question": "<img src='images/Problem Set 9/9.3.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "implements Growable"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 4 -  Interface 3",
+                    "question": "<img src='images/Problem Set 9/9.4.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        ""
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 5 -   Comparable",
+                    "question": "<img src='images/Problem Set 9/9.5.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "compareTo()"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 7 - Comparable Interface ",
+                    "question": "<img src='images/Problem Set 9/9.7.jpg' alt='image'><br><h4 style='text-align:left; color:green; font-size:20px;'>Comparable c1 = new String('Hello');&nbsp;&nbsp;<input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;valid</input>&nbsp;&nbsp;<input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;Invalid</input><br><br>Comparable c2 = new Integer(42);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;valid</input>&nbsp;&nbsp;<input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;Invalid</input><br><br>Comparable c3 = new Comparable();&nbsp;&nbsp;<input name='option' value='e' id=\"quizinput5\" type=\"radio\">&nbsp;valid</input>&nbsp;&nbsp;<input name='option' value='f' id=\"quizinput6\" type=\"radio\">&nbsp;Invalid</input><br><br>String s = c1;&nbsp;&nbsp;<input name='option' value='g' id=\"quizinput7\" type=\"radio\">&nbsp;valid</input>&nbsp;&nbsp;<input name='option' value='h' id=\"quizinput8\" type=\"radio\">&nbsp;Invalid</input>",
+                    "answer": [
+                        "a",
+                        "c",
+                        "f",
+                        "h"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 10 - Super class ",
+                    "question": "<img src='images/Problem Set 9/9.10.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;Cat</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;Mammal</input>",
+                    "answer": [
+                        "b"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 11 -  Subclass",
+                    "question": "<img src='images/Problem Set 9/9.11.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "extends"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 12 -  Same Method Name",
+                    "question": "<img src='images/Problem Set 9/9.12.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "overloading"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short problem 13 -  Same method name 2",
+                    "question": "<img src='images/Problem Set 9/9.13.jpg' alt='image'><br><input class='input-lg' id=\"quizinput1\" type=\"text\"></input>",
+                    "answer": [
+                        "overriding"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 14 - Super and sub classes ",
+                    "question": "<img src='images/Problem Set 9/9.14.jpg' alt='image'><br><p style='text-align:left; color:green; font-size:20px'><input name='option' value='a' id=\"quizinput1\" type=\"radio\">&nbsp;Overloading</input><br><input name='option' value='b' id=\"quizinput2\" type=\"radio\">&nbsp;Overriding</input><br><input name='option' value='c' id=\"quizinput3\" type=\"radio\">&nbsp;Extending</input><br><input name='option' value='d' id=\"quizinput4\" type=\"radio\">&nbsp;Interface</input>",
+                    "answer": [
+                        "a"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 15 - Question hierarchy",
+                    "question": "<img src='images/Problem Set 9/9.15.jpg' alt='image'><br><font size='4px' color='green'><input type='checkbox' class='Checkboxinput' value='a'>&nbsp;&nbsp;Question&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='b'>&nbsp;&nbsp;Fillinquestion&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='c'>&nbsp;&nbsp;Choicequestion&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='d'>&nbsp;&nbsp;MultipleChoiceQuestion&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='e'>&nbsp;&nbsp;TrueFalseQuestion<br><br><img src='images/Problem Set 9/9.15.1.jpg' alt='image'>",
+                    "answer": [
+                        "a",
+                        "b",
+                        "c",
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 16 - Question hierarchy 2",
+                    "question": "<img src='images/Problem Set 9/9.15.jpg' alt='image'><br><font size='4px' color='green'><input type='checkbox' class='Checkboxinput' value='a'>&nbsp;&nbsp;Question&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='b'>&nbsp;&nbsp;Fillinquestion&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='c'>&nbsp;&nbsp;Choicequestion&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='d'>&nbsp;&nbsp;MultipleChoiceQuestion&nbsp;&nbsp;<input type='checkbox' class='Checkboxinput' value='e'>&nbsp;&nbsp;TrueFalseQuestion<br><br><img src='images/Problem Set 9/9.15.1.jpg' alt='image'>",
+                    "answer": [
+                        "c",
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 19 - Sandwich",
+                    "question": "<img src='images/Problem Set 9/9.19.jpg' alt='image'><br><br><form class='form-horizontal'><div class='form-group text-left' style='margin-left:155px'><input type='checkbox' class='Checkboxinput' value='a'>&nbsp;&nbsp;sandwitch=sub;<br><input type='checkbox' class='Checkboxinput' value='b'>&nbsp;&nbsp;sub=sandwitch;<br><input type='checkbox' class='Checkboxinput' value='c'>&nbsp;&nbsp;sub=new Sandwich();<br><input type='checkbox' class='Checkboxinput' value='d'>&nbsp;&nbsp;sandwitch=new sub();</div></form>",
+                    "answer": [
+                        "a",
+                        "d"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                },
+                {
+                    "title": "Short Problem 20 - Checking Account",
+                    "question": "<img src='images/Problem Set 9/9.20.jpg' alt='image'><br><br><form class='form-horizontal'><div class='form-group text-left' style='margin-left:155px'><input type='checkbox' class='Checkboxinput' value='a'>&nbsp;&nbsp;BankAccount<br><input type='checkbox' class='Checkboxinput' value='b'>&nbsp;&nbsp;CheckingAccount<br><input type='checkbox' class='Checkboxinput' value='c'>&nbsp;&nbsp;Not enough information to say</div></form>",
+                    "answer": [
+                        "b"
+                    ],
+                    "type": "quiz",
+                    "tips": ""
+                }
+            ]
         }
     }
 }
