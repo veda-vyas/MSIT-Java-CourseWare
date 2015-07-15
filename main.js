@@ -70,7 +70,7 @@ myfs.writeFile(__dirname+"/userdatajson.json", JSON.stringify( myjson ), "utf8",
 	data = JSON.parse(data);
 	var modjson=data;
 	for(i=1; i<=Object.keys(modjson["modules"]).length; i++){
-		//console.log("module no: "+modjson["modules"][""+i]["title"]);
+		console.log("module no: "+modjson["modules"][""+i]["title"]);
 		for(var j=0;j<modjson["modules"][""+i]["lessons"].length;j++){
 			modjson["modules"][""+i]["lessons"][j]["qid"]=i+"."+(j+1);
 			
@@ -97,7 +97,57 @@ child = exec('ping -c 1 192.168.1.100', function(error, stdout, stderr){
           console.log("Available [INTERNET]");
 });
 
+//encrypt & decrypt functions
+var crypto = require('crypto'),
+    algorithm = 'aes-256-ctr',
+    password = 'd6F3Efeq';
+ 
+function encrypt(text){
+  var cipher = crypto.createCipher(algorithm,password)
+  var crypted = cipher.update(text,'utf8','hex')
+  crypted += cipher.final('hex');
+  return crypted;
+}
+ 
+/*function decrypt(text){
+  var decipher = crypto.createDecipher(algorithm,password)
+  var dec = decipher.update(text,'hex','utf8')
+  dec += decipher.final('utf8');
+  return dec;
+}*/
 
+//end of encrypt & decrypt
+// encrypt & decrypt example
+/*myJSON = myfs.readFile(__dirname+"/moduledata.json", flag="utf8", function(err, data){
+	data = JSON.parse(data);
+	var modjson=data;
+	for(i=1; i<=Object.keys(modjson["modules"]).length; i++){
+		//console.log("module no: "+modjson["modules"][""+i]["title"]);
+		for(var j=0;j<modjson["modules"][""+i]["lessons"].length;j++){
+			var type=modjson["modules"][""+i]["lessons"][j]["type"];
+			if(type=="quiz"){
+				var mdata=modjson["modules"][""+i]["lessons"][j]["answer"];
+				for (var k=0;k<mdata.length;k++){
+    				mdata[k]=encrypt(mdata[k]);
+    			}
+    			modjson["modules"][""+i]["lessons"][j]["answer"]=mdata;
+			}
+			
+		}	
+	}
+	myfs.writeFile(__dirname+"/moduledata.json",JSON.stringify(modjson),"utf8",function(err){});
+});*/
+
+/*myJSON = myfs.readFile(__dirname+"/sample_ency.json", flag="utf8", function(err, data){
+	data=JSON.parse(data);
+	var myjson=data;
+	for (var k=0;k<data["modules"].length;k++){
+		myjson["modules"][k]["ans"]=decrypt(data["modules"][k]["ans"]);
+	}
+	myfs.writeFile(__dirname+"/sample_decy.json",JSON.stringify(myjson),"utf8",function(err){});
+});
+*/
+//end of the encrypt & decrypt example
 
 // This method will be called when Electron has done everything
 // initialization and ready for creating browser windows.
@@ -119,22 +169,46 @@ app.on('ready', function() {
 	 //event.sender.send('asynchronous-reply', 'pong');
 	 mainWindow.loadUrl('file://' + __dirname + arg);
   });
+
+  //IPC to store userdata
   ipc.on('process-data', function(event, arg) {
 	myJSON = myfs.readFile(__dirname+"/userdatajson.json", flag="utf8", function(err, data){
 		//console.log(err);
 		if (err) throw err;
-		//console.log(data);
-
 		data = JSON.parse(data);
-		var modjson=data;
+		var modjson = data;
 		var i=data["userdata"].length;
-		
 		arg["sno"]=""+(i+1);
 		modjson["userdata"][i]=arg;//{"qid":""+strarr[0],"startTime":strarr[0],"submittedTime":strarr[1],"score":strarr[2]};
 		myfs.writeFile(__dirname+"/userdatajson.json",JSON.stringify(modjson),"utf8",function(err){});
 	});
-	 
   });
+  ipc.on('execute-program',function(event,arg){
+  	console.log("retrieved data:"+arg);
+  	var writeStream = myfs.createWriteStream(__dirname+"/programs/Solution.java");
+	writeStream.write(arg);
+	//writeStream.write("Thank You.");
+	writeStream.end();
+	var nodeexec = require('child_process').exec;
+	nodeexec('javac '+__dirname+'\\programs\\Solution.java', function callback(error, stdout, stderr){
+	if(error == null){
+		nodeexec('java -cp '+__dirname+'\\programs Solution', function callback(error, stdout, stderr){
+			if(error == null){
+				console.log("NODE EXEC OUTPUT: "+stdout);
+			} else {
+				console.log("NODE EXEC4: "+error);
+				console.log("NODE EXEC4: "+stdout);
+				console.log("NODE EXEC4: "+stderr);
+			}
+		});
+	} else {
+		console.log("NODE EXEC: "+error);
+		console.log("NODE EXEC: "+stdout);
+		console.log("NODE EXEC: "+stderr);
+	}
+});
+  });
+
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
     // Dereference the window object, usually you would store windows

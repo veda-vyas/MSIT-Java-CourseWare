@@ -18,17 +18,7 @@ $(function(){
 			}
 
 			var lessonSize = 1;
-			/*$.post("/getmoduleinfo", {mod:mod1, les:les1})
-				.done(function(data){
-					//alert("Retrieved Module Info...");
-					jdata = JSON.parse(data);
-					//alert(jdata["lessonsize"]);
-					lessonSize = jdata["lessons"].length;
-					octopus.render(jdata, mod1, les1, lessonSize);
-				})
-				.fail(function(data){
-					alert("Failed Request, ");
-				});*/
+
 			//console.log("trying to fetch Module json");
 			$.getJSON("moduledata.json", function(data){
 				//console.log("Got JSON");
@@ -115,13 +105,52 @@ $(function(){
 				this.score=0;
 				$('#videodiv').html('<iframe class="embed-responsive-item" src="'+data['video']+'" allowfullscreen></iframe>');
 				$('#quizbox').hide();
-			} else if(data['type']=='quiz'){
-				$('#quizdiv').html('<br/><br/>'+data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
+			} 
+			else if(data['type']=='program'){
+				var editor = ace.edit("editor");
+    			editor.setTheme("ace/theme/monokai");
+    			editor.getSession().setMode("ace/mode/java");
+    			editor.getSession().setValue(data['question']);
+				$('#videobox').hide();
+				$('#viewanswer').click(function(){
+					octopus.executeProgram();
+				});
+				$('#btnNext2').click(function(){
+					//alert("Clicked Next");
+					octopus.stroreData();
+					var ipc = require('ipc');
+					if(parseInt(les1)+1 <= lessonSize){
+						//location.href="module?mod="+mod1+'&les='+(parseInt(les1)+1);
+						ipc.send('asynchronous-message', "\\module.html?mod="+mod1+"&les="+(parseInt(les1)+1));
+						console.log('done to NEXT');
+					} else {
+						//location.href="course";
+						ipc.send('asynchronous-message', "\\course.html");
+						console.log('done to COURSE');
+					}
+				});
+				$('#btnPrev2').click(function(){
+					//alert("Clicked Previous");
+					var ipc = require('ipc');
+					if(parseInt(les1)-1 >= 1){
+						//location.href="module?mod="+mod1+'&les='+(parseInt(les1)-1);
+						ipc.send('asynchronous-message', "\\module.html?mod="+mod1+"&les="+(parseInt(les1)-1));
+						console.log('done to NEXT');
+					} else {
+						//location.href="course";
+						ipc.send('asynchronous-message', "\\course.html");
+						console.log('done to COURSE(PREV)');
+					}
+				});
+			}
+			else if(data['type']=='quiz'){
+				var decryptans=octopus.getDecryptData(data['answer']);
+				$('#quizdiv').html(''+data['question']+'<br/><br/><button id="checkAnswer" class="btn btn-default" style="margin-top: 6px">Check Answer</button><br/><br/>');
 				$('#videobox').hide();
 				$('#checkAnswer').click(function(){
 					var checkedans = [];
 					if($('#quizinput2').attr('type')=='radio' && $('#quizinput1').attr('type')=='textarea'){
-						if($('textarea').val() == data['answer'][0] && $('input[name="option"]:checked').val() == data['answer'][1]){
+						if($('textarea').val() == decryptans[0] && $('input[name="option"]:checked').val() == decryptans[1]){
 							octopus.score = 1;
 							$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
 						} else {
@@ -130,7 +159,7 @@ $(function(){
 						}
 					}
 					else if($('#quizinput1').attr('type')=='radio'){
-						if($('input[name="option"]:checked').val() == data['answer'] || $('input[name="option"]:checked').val() == data['answer'][0] && $('input[name="option1"]:checked').val() == data['answer'][1]){
+						if($('input[name="option"]:checked').val() == decryptans[0] || $('input[name="option"]:checked').val() == decryptans[0] && $('input[name="option1"]:checked').val() == decryptans[1]){
 							octopus.score = 1;
 							$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
 						} else {
@@ -146,13 +175,13 @@ $(function(){
 						}
 						checkedans.sort();
 						data['answer'].sort();
-						if(checkedans.length!=data['answer'].length){
+						if(checkedans.length!=decryptans.length){
 							octopus.score = 0;
 							$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');
 						}
 						else{
 							for (var i = 0; i < checkedans.length; ++i) {
-							    if (checkedans[i] != data['answer'][i]){
+							    if (checkedans[i] != decryptans[i]){
 							    	octopus.score = 1;
 							    	$('#tipblock').html('<h4 style="color:red"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>&nbsp;Try Again</h4>');break;
 							    }else{
@@ -164,7 +193,7 @@ $(function(){
 					}
 					else{
 						for (var i = 1; i <= data['answer'].length; i++) {
-							if($('#quizinput'+i).val() == data['answer'][i-1]){
+							if($('#quizinput'+i).val() == decryptans[i-1]){
 								octopus.score = 1;
 								$('#tipblock').html('<h4 style="color:green"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>&nbsp;Great Job!</h4>');
 							} else {
@@ -217,7 +246,7 @@ $(function(){
 		},
 		stroreData: function(){
 			var ipc = require('ipc');
-			console.log("qid"+this.qid+"st:"+this.startTime+"smt:"+this.submittedTime+"score:"+this.score);
+			//console.log("qid"+this.qid+"st:"+this.startTime+"smt:"+this.submittedTime+"score:"+this.score);
 			var record={"qid":this.qid,"startTime":this.startTime,"submittedTime":this.submittedTime,"score":""+this.score};
 			ipc.send('process-data',record);
 		},
@@ -230,6 +259,29 @@ $(function(){
 		getQuestionId:function(data, mod1, les1, lessonSize){
 			octopus.qid=data["lessons"][les1-1]["qid"];
 			return this.qid;
+		},
+		getDecryptData: function(data){
+			
+			var crypto = require('crypto'),
+    			algorithm = 'aes-256-ctr',
+    			password = 'd6F3Efeq';
+    		var mdata=data;
+    		for (var i=0;i<data.length;i++){
+    			console.log("enc data:"+data[i]);
+    			var decipher = crypto.createDecipher(algorithm,password)
+  				var dec = decipher.update(data[i],'hex','utf8')
+  				dec += decipher.final('utf8');
+    			console.log("dec data:"+dec);
+    			mdata[i]=dec;
+    		}
+    		return mdata;
+		},
+		executeProgram: function(){
+			var editor = ace.edit("editor");
+			var textareadata = editor.getSession().getValue();
+			console.log("textareadata: "+textareadata);
+			var ipc = require('ipc');
+			ipc.send("execute-program",textareadata);
 		}
 	};
 	
