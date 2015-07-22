@@ -26,25 +26,7 @@ mico.audioStream.on('data', function(data) {
 });*/
 
 
-// Node.js Snippet to create a process and execute a command to COMPILE and RUN java program
-var nodeexec = require('child_process').exec;
-nodeexec('javac E:\\Electron\\MyApp.java', function callback(error, stdout, stderr){
-	if(error == null){
-		nodeexec('java -cp E:\\Electron MyApp', function callback(error, stdout, stderr){
-			if(error == null){
-				console.log("NODE EXEC OUTPUT: "+stdout);
-			} else {
-				console.log("NODE EXEC4: "+error);
-				console.log("NODE EXEC4: "+stdout);
-				console.log("NODE EXEC4: "+stderr);
-			}
-		});
-	} else {
-		console.log("NODE EXEC: "+error);
-		console.log("NODE EXEC: "+stdout);
-		console.log("NODE EXEC: "+stderr);
-	}
-});
+
 
 //Write to a file in local system
 var myfs = require('fs');
@@ -183,31 +165,103 @@ app.on('ready', function() {
 		myfs.writeFile(__dirname+"/userdatajson.json",JSON.stringify(modjson),"utf8",function(err){});
 	});
   });
-  ipc.on('execute-program',function(event,arg){
+ function appendProgram(mod,less,program,output){
+	myJSON = myfs.readFile(__dirname+"/moduledata.json", flag="utf8", function(err, data){
+	data = JSON.parse(data);
+	var myjson=data;
+	var outputwithbr="";
+	for(var i=0;i<output.length;i++){
+		if(output.charAt(i)=='\n'){
+			outputwithbr +="<br>";
+		}else{
+			outputwithbr +=output.charAt(i);
+		}
+	}
+	myjson["modules"][mod]["lessons"][parseInt(less)-1]["question"]=program;
+	myjson["modules"][mod]["lessons"][parseInt(less)-1]['output']=outputwithbr;
+	//console.log("qn: "+myjson["modules"][mod]["lessons"][parseInt(less)-1]["output"]);
+	myfs.writeFile(__dirname+"/moduledata.json",JSON.stringify(myjson),"utf8",function(err){});
+});
+console.log("output:"+output);
+//console.log(mod+" "+less+" "+program+" "+output);
+//mainWindow.loadUrl('file://' + __dirname + "module.html?mod="+mod+"&les="+(parseInt(less)));
+}
+ipc.on('execute-program',function(event,arg,modles){
   	console.log("retrieved data:"+arg);
+  	var moduleandlesson=modles.split("|");
+  	var mod=moduleandlesson[0];
+  	var lesson=moduleandlesson[1];
+  	console.log("mod:"+mod+" lesson:"+lesson);
   	var writeStream = myfs.createWriteStream(__dirname+"/programs/Solution.java");
 	writeStream.write(arg);
 	//writeStream.write("Thank You.");
 	writeStream.end();
+	var output="";
 	var nodeexec = require('child_process').exec;
 	nodeexec('javac '+__dirname+'\\programs\\Solution.java', function callback(error, stdout, stderr){
-	if(error == null){
-		nodeexec('java -cp '+__dirname+'\\programs Solution', function callback(error, stdout, stderr){
-			if(error == null){
-				console.log("NODE EXEC OUTPUT: "+stdout);
-			} else {
-				console.log("NODE EXEC4: "+error);
-				console.log("NODE EXEC4: "+stdout);
-				console.log("NODE EXEC4: "+stderr);
-			}
-		});
-	} else {
-		console.log("NODE EXEC: "+error);
-		console.log("NODE EXEC: "+stdout);
-		console.log("NODE EXEC: "+stderr);
-	}
+		if(error == null){
+			nodeexec('java -cp '+__dirname+'\\programs Solution', function callback(error, stdout, stderr){
+				if(error == null){
+					output=stdout;
+					console.log("NODE EXEC OUTPUT: "+stdout+" output: "+output);
+					appendProgram(mod,lesson,arg,output);
+				} else {
+					output=stderr;
+					console.log("NODE EXEC4: "+stderr);
+					appendProgram(mod,lesson,arg,output);
+					
+					//console.log("NODE EXEC4: "+stdout);
+					//console.log("NODE EXEC4: "+stderr);
+				}
+			});
+		} else {
+			output=stderr;
+			console.log("NODE EXEC: "+stderr);
+			appendProgram(mod,lesson,arg,output);
+			
+			//console.log("NODE EXEC: "+stdout);
+			//console.log("NODE EXEC: "+stderr);
+		}
+	});
 });
-  });
+ipc.on('execute-Apiprogram',function(event,classname,testcases,userprogram,modles){
+  	console.log("retrieved data:"+userprogram+"\n"+testcases);
+  	var moduleandlesson=modles.split("|");
+  	var mod=moduleandlesson[0];
+  	var lesson=moduleandlesson[1];
+  	console.log("mod:"+mod+" lesson:"+lesson);
+  	var writeStream = myfs.createWriteStream(__dirname+"/programs/"+classname+"Test.java");
+	writeStream.write(userprogram+"\n");
+	writeStream.write(testcases);
+	writeStream.end();
+
+	var output="";
+	var userprogram_error_status=false;
+	var nodeexec = require('child_process').exec;
+	nodeexec('javac '+__dirname+'\\programs\\'+classname+'Test.java', function callback(error, stdout, stderr){
+		if(error == null){
+			nodeexec('java -cp '+__dirname+'\\programs '+classname+'Test', function callback(error, stdout, stderr){
+				if(error == null){
+					output=stdout;
+					console.log("NODE EXEC OUTPUT TestPrgm: "+stdout+" output: "+output);
+					appendProgram(mod,lesson,userprogram,output);
+				} else {
+					output=stderr;
+					console.log("NODE EXEC4: "+stderr);
+					appendProgram(mod,lesson,userprogram,output);
+					
+					//console.log("NODE EXEC4: "+stdout);
+					//console.log("NODE EXEC4: "+stderr);
+				}
+			});
+		} else {
+			output=stderr;
+			console.log("NODE EXEC: "+stderr);
+			appendProgram(mod,lesson,userprogram,output);
+		}
+	});
+	
+});
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
