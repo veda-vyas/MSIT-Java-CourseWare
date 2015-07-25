@@ -27,12 +27,12 @@ mico.audioStream.on('data', function(data) {
 
 
 
-
+var userid="narsimha.msit@gmail.com";
 //Write to a file in local system
 var myfs = require('fs');
 myfs.exists(__dirname+"/userdatajson.json",function(exists){
 	if(!exists){
-		myfs.writeFile(__dirname+"/userdatajson.json",JSON.stringify({"userdata":[]}),"utf8",function(err){});
+		myfs.writeFile(__dirname+"/userdatajson.json",JSON.stringify({"userdata":[],"lastsync":0,"userid":userid}),"utf8",function(err){});
 		console.log("File Created.");
 	}
 	else{
@@ -58,26 +58,11 @@ myfs.writeFile(__dirname+"/userdatajson.json", JSON.stringify( myjson ), "utf8",
 			
 		}	
 	}
-	myfs.writeFile(__dirname+"/moduledata1.json",JSON.stringify(modjson),"utf8",function(err){});
+	myfs.writeFile(__dirname+"/moduledata.json",JSON.stringify(modjson),"utf8",function(err){});
 });*/
 
 //Check if internet connection is present through dns lookup
-require('dns').lookup('www.google.com', function(err) {
-	if (err && err.code == "ENOTFOUND"){
-		console.log("Internet Connection Present");
-	} else {
-		console.log("No Internet !");
-	}
-});
 
-//Check if internet connection is present through process
-var exec = require('child_process').exec, child;
-child = exec('ping -c 1 192.168.1.100', function(error, stdout, stderr){
-     if(error != null)
-          console.log("Not available [INTERNET]");
-      else
-          console.log("Available [INTERNET]");
-});
 
 //encrypt & decrypt functions
 var crypto = require('crypto'),
@@ -91,12 +76,12 @@ function encrypt(text){
   return crypted;
 }
  
-/*function decrypt(text){
+function decrypt(text){
   var decipher = crypto.createDecipher(algorithm,password)
   var dec = decipher.update(text,'hex','utf8')
   dec += decipher.final('utf8');
   return dec;
-}*/
+}
 
 //end of encrypt & decrypt
 // encrypt & decrypt example
@@ -110,14 +95,17 @@ function encrypt(text){
 			if(type=="quiz"){
 				var mdata=modjson["modules"][""+i]["lessons"][j]["answer"];
 				for (var k=0;k<mdata.length;k++){
-    				mdata[k]=encrypt(mdata[k]);
+					if(mdata[k]!=""){
+						console.log("answer data: "+mdata[k]+" qid: "+modjson["modules"][""+i]["lessons"][j]["qid"]);
+    					mdata[k]=encrypt(mdata[k]);
+    				}
     			}
     			modjson["modules"][""+i]["lessons"][j]["answer"]=mdata;
 			}
 			
 		}	
 	}
-	myfs.writeFile(__dirname+"/moduledata.json",JSON.stringify(modjson),"utf8",function(err){});
+	myfs.writeFile(__dirname+"/moduledata_decrypt.json",JSON.stringify(modjson),"utf8",function(err){});
 });*/
 
 /*myJSON = myfs.readFile(__dirname+"/sample_ency.json", flag="utf8", function(err, data){
@@ -146,12 +134,10 @@ app.on('ready', function() {
   
   // IPC to navigate to another URL
   ipc.on('asynchronous-message', function(event, arg) {
-	 //console.log(arg);  // prints URL
-	 //console.log('----> file://' + __dirname + arg);
-	 //event.sender.send('asynchronous-reply', 'pong');
 	 mainWindow.loadUrl('file://' + __dirname + arg);
+	  checkOnlineAndUpdate();
   });
-
+  checkOnlineAndUpdate();
   //IPC to store userdata
   ipc.on('process-data', function(event, arg) {
 	myJSON = myfs.readFile(__dirname+"/userdatajson.json", flag="utf8", function(err, data){
@@ -230,7 +216,7 @@ ipc.on('execute-Apiprogram',function(event,classname,testcases,userprogram,modle
   	var mod=moduleandlesson[0];
   	var lesson=moduleandlesson[1];
   	console.log("mod:"+mod+" lesson:"+lesson);
-  	var writeStream = myfs.createWriteStream(__dirname+"/programs/"+classname+"Test.java");
+  	var writeStream = myfs.createWriteStream(__dirname+"/programs/"+classname+".java");
 	writeStream.write(userprogram+"\n");
 	writeStream.write(testcases);
 	writeStream.end();
@@ -238,9 +224,9 @@ ipc.on('execute-Apiprogram',function(event,classname,testcases,userprogram,modle
 	var output="";
 	var userprogram_error_status=false;
 	var nodeexec = require('child_process').exec;
-	nodeexec('javac '+__dirname+'\\programs\\'+classname+'Test.java', function callback(error, stdout, stderr){
+	nodeexec('javac '+__dirname+'\\programs\\'+classname+'.java', function callback(error, stdout, stderr){
 		if(error == null){
-			nodeexec('java -cp '+__dirname+'\\programs '+classname+'Test', function callback(error, stdout, stderr){
+			nodeexec('java -cp '+__dirname+'\\programs '+classname, function callback(error, stdout, stderr){
 				if(error == null){
 					output=stdout;
 					console.log("NODE EXEC OUTPUT TestPrgm: "+stdout+" output: "+output);
@@ -262,6 +248,72 @@ ipc.on('execute-Apiprogram',function(event,classname,testcases,userprogram,modle
 	});
 	
 });
+
+
+function loadUserdata(){
+	var userdata="";
+	myJSON = myfs.readFile(__dirname+"/userdatajson.json", flag="utf8", function(err, data){
+		
+		var syncdata=JSON.parse('{"userdata":[]}');
+		data = JSON.parse(data);
+		var length=data["userdata"].length;
+		if(length==0){
+			data["lastsync"]=0;
+		}
+		else if(data["lastsync"]!=length){
+			var sno=data["lastsync"];
+			console.log("lastsync before update:"+sno);
+			var i=0;
+			for (var j=sno;j<length;j++){
+				syncdata["userdata"][i]=data["userdata"][j];
+				i++;		
+			}
+			data["lastsync"]=j;
+			console.log("last sync is: "+j);
+			
+			myfs.writeFile(__dirname+"/userdatajson.json",JSON.stringify(data),"utf8",function(err){
+			});
+			userdata=JSON.stringify(syncdata);
+			console.log("records: "+userdata);
+			var httpify = require('httpify');
+
+			var req = httpify({
+			//url: 'https://activity-log-tmt.appspot.com/getdigistate',
+			url: 'https://msit-prep.appspot.com/setcourse',
+			method: 'POST',
+			type: 'text',
+			
+			form: {userid: userid, userdata: userdata, course : "java"}
+			}, function (err, response, body) {
+				console.log("sync error in form: "+err);
+			});
+
+			req.then(function (response) {
+			// Do stuff 
+			console.log(response.body);
+			}, function (errResponse) {
+			// status: 400 - 599 
+				console.log("sync err: "+errResponse);
+			});
+		}
+	});
+	
+}
+function checkOnlineAndUpdate(){
+	var isOnline = require('is-online');
+	isOnline(function(err, online) {
+	console.log("Online Status: "+online);
+		if(online){
+			loadUserdata();
+		}
+	});
+}
+/*var nodeexec = require('child_process').exec;
+nodeexec('hostname', function callback(error, stdout, stderr){
+	userid=stdout.trim();
+	console.log("hostname: "+stdout);
+	//syncdata();
+});*/
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {

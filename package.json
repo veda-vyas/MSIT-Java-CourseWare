@@ -1,8 +1,10 @@
 {
-  "name"    : "TMTQuizApp",
-  "version" : "0.1.0",
-  "main"    : "main.js",
-  "dependencies" : {
-	"keypress" : ">= 0.2.x"
+  "name": "TMTQuizApp",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "httpify": "^1.0.0",
+    "is-online": "^5.0.0",
+    "keypress": ">= 0.2.x"
   }
 }

@@ -176,9 +176,7 @@ $(function(){
 			octopus.stroreData();
 			var ipc = require('ipc');
 			ipc.send("execute-program",textareadata,mod1+"|"+les1);
-			//octopus.loadModuleJson(mod1,les1);
-			//var openlink="\\module.html?mod="+mod1+"&les="+(parseInt(les1));
-			//ipc.send('asynchronous-message',openlink);
+			
 		},
 		loadModuleJson : function(mod1,les1){
 			$.getJSON("moduledata.json", function(data){
@@ -273,6 +271,9 @@ $(function(){
 				});
 				$('#btnNext2').click(function(){
 					//alert("Clicked Next");
+					var date=new Date();
+					var strd=date.toString();
+					octopus.submittedTime=strd.substring(0,strd.indexOf("GMT"));
 					octopus.stroreData();
 					var ipc = require('ipc');
 					if(parseInt(les1)+1 <= lessonSize){
@@ -299,20 +300,7 @@ $(function(){
 					}
 				});
 		},
-		/*getResult : function() {
-			$.ajax({
-				type: 'get',
-				url: '/getResult',
-				dataType:'json',
-				async: false,
-				success: function (data) {
-					data = JSON.stringify(data);
-				},
-				error: function () {
-					alert("failure");
-				}
-			});
-		},*/
+		              
 		loadApiProgram : function(data,mod1,les1,lessonSize){
 			var editor = ace.edit("editor");
     			editor.setTheme("ace/theme/monokai");
@@ -335,7 +323,7 @@ $(function(){
 				});
 				$('#btnNext2').click(function(){
 					//alert("Clicked Next");
-					octopus.stroreData();
+					//octopus.stroreData();
 					var ipc = require('ipc');
 					if(parseInt(les1)+1 <= lessonSize){
 						//location.href="module?mod="+mod1+'&les='+(parseInt(les1)+1);
@@ -398,7 +386,7 @@ $(function(){
 				});
 				$('#btnNext2').click(function(){
 					//alert("Clicked Next");
-					octopus.stroreData();
+					//octopus.stroreData();
 					var ipc = require('ipc');
 					if(parseInt(les1)+1 <= lessonSize){
 						//location.href="module?mod="+mod1+'&les='+(parseInt(les1)+1);
